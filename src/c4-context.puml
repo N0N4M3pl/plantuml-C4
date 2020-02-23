@@ -1,0 +1,29 @@
+@startuml c4
+
+!include style.puml
+!include common.puml
+
+' ----------------------------------------------------
+' Context
+' ----------------------------------------------------
+
+!define System(alias, label) node "==label" <<system>> as alias
+skinparam node<<system>> {
+    StereotypeFontColor FONT_COLOR_DARK
+    FontColor FONT_COLOR_DARK
+    BackgroundColor SYSTEM_BG_COLOR
+    BorderColor SYSTEM_BD_COLOR
+}
+
+!define System_External(alias, label) node "==label" <<system external>> as alias
+skinparam node<<system external>> {
+    StereotypeFontColor FONT_COLOR_DARK
+    FontColor FONT_COLOR_DARK
+    BackgroundColor SYSTEM_EXTERNAL_BG_COLOR
+    BorderColor SYSTEM_EXTERNAL_BD_COLOR
+}
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+@enduml

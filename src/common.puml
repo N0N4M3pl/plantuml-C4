@@ -1,0 +1,38 @@
+@startuml c4
+
+!include style.puml
+
+' ----------------------------------------------------
+' Common
+' ----------------------------------------------------
+
+!define Boundary(alias, label) rectangle "==label" <<boundary>> as alias
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor FONT_COLOR_DARK
+    BackgroundColor BOUNDARY_BG_COLOR
+    BorderColor BOUNDARY_BD_COLOR
+    BorderStyle dashed
+    BorderThickness 0
+}
+
+!define Person(alias, label) actor "==label" <<person>> as alias
+skinparam actor<<person>> {
+    StereotypeFontColor FONT_COLOR_DARK
+    FontColor FONT_COLOR_DARK
+    BackgroundColor PERSON_BG_COLOR
+    BorderColor PERSON_BD_COLOR
+}
+
+!define Relation(alias1, alias2, direction="--", label="") alias1 direction alias2 : "label"
+skinparam Arrow {
+    Color FONT_COLOR_DARK
+    FontColor FONT_COLOR_DARK
+    FontSize 12
+}
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+@enduml

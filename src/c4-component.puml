@@ -1,0 +1,96 @@
+@startuml c4
+
+!include style.puml
+!include common.puml
+
+' ----------------------------------------------------
+' Component
+' ----------------------------------------------------
+
+!define Boundary_Container(alias, label) rectangle "==label" <<boundary container>> as alias
+skinparam rectangle<<boundary container>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor FONT_COLOR_DARK
+    BackgroundColor BOUNDARY_CONTAINER_BG_COLOR
+    BorderColor BOUNDARY_CONTAINER_BD_COLOR
+    BorderStyle dashed
+    BorderThickness 0
+}
+
+!define Component(alias, label, technology, description) component "==label\n [technology]\n //description//" <<component>> as alias
+skinparam component<<component>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_Service(alias, label, technology, description) component "==label\n [technology]\n //description//" <<component service>> as alias
+skinparam component<<component service>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_Database(alias, label, technology, description) database "==label\n [technology]\n //description//" <<component database>> as alias
+skinparam database<<component database>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_PubSub(alias, label, technology, description) queue "==label\n [technology]\n //description//" <<component pubsub>> as alias
+skinparam queue<<component pubsub>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_Storage(alias, label, technology, description) stack "==label\n [technology]\n //description//" <<component storage>> as alias
+skinparam stack<<component storage>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_Script(alias, label, technology, description) file "==label\n [technology]\n //description//" <<component script>> as alias
+skinparam file<<component script>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_App_Desktop(alias, label, technology, description) node "==label\n [technology]\n //description//" <<component application desktop>> as alias
+skinparam node<<component application desktop>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_App_Web(alias, label, technology, description) node "==label\n [technology]\n //description//" <<component application web>> as alias
+skinparam node<<component application web>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+!define Component_App_Mobile(alias, label, technology, description) node "==label\n [technology]\n //description//" <<component application mobile>> as alias
+skinparam node<<component application mobile>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
+}
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml main
+
+!include ../src/c4-container.puml
+!include ../src/c4-context.puml
+
+LAYOUT_TOP_DOWN
+
+Boundary_System(Boundary_systemA, "System A") {
+    Container(containerA, "Container A", "API", "My description")
+    Container(containerB, "Container B", "API", "My description")
+}
+Container(containerC, "Container C", "API", "My description")
+System_External(systemB2, "System B")
+
+Relation(containerB, systemB2, "-->")
+Relation(containerA, containerB, "-->")
+Relation(containerA, containerC, "<--")
+
+@enduml

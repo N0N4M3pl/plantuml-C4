@@ -1,0 +1,22 @@
+@startuml main
+
+!include ../src/c4-context.puml
+
+LAYOUT_TOP_DOWN
+
+' skinparam Monochrome true
+
+center header Example
+title Context View
+
+Person(personA, "Person A")
+
+System(systemA, "System A")
+System_External(systemB, "System B")
+
+Relation(systemA, systemB, "-->", "pobiera dane z")
+Relation(personA, systemA, "-->", "korzysta z")
+
+center footer Example
+
+@enduml

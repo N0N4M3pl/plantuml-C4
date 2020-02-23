@@ -1,0 +1,48 @@
+@startuml c4
+
+' ----------------------------------------------------
+' Document
+' ----------------------------------------------------
+
+!define LAYOUT_TOP_DOWN top to bottom direction
+!define LAYOUT_LEFT_RIGHT left to right direction
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+' ----------------------------------------------------
+' Colors
+' ----------------------------------------------------
+
+!define FONT_COLOR_DARK #333
+
+' Common
+!define BOUNDARY_BG_COLOR LightSkyBlue
+!define BOUNDARY_BD_COLOR LightSlateGrey
+!define PERSON_BG_COLOR Gold
+!define PERSON_BD_COLOR GoldenRod
+!define RELATION_COLOR FONT_COLOR_DARK
+
+' Context
+!define SYSTEM_BG_COLOR LightSkyBlue
+!define SYSTEM_BD_COLOR LightSlateGrey
+!define SYSTEM_EXTERNAL_BG_COLOR LightSteelBlue
+!define SYSTEM_EXTERNAL_BD_COLOR LightSlateGrey
+
+' Container
+!define BOUNDARY_SYSTEM_BG_COLOR LightSkyBlue
+!define BOUNDARY_SYSTEM_BD_COLOR LightSlateGrey
+!define CONTAINER_BG_COLOR Moccasin
+!define CONTAINER_BD_COLOR Peru
+
+' Component
+!define BOUNDARY_CONTAINER_BG_COLOR LightSkyBlue
+!define BOUNDARY_CONTAINER_BD_COLOR LightSlateGrey
+!define COMPONENT_BG_COLOR #85BBF0
+!define COMPONENT_BD_COLOR #78A8D8
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+@enduml

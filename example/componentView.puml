@@ -1,0 +1,27 @@
+@startuml main
+
+!include ../src/c4-component.puml
+!include ../src/c4-container.puml
+
+LAYOUT_TOP_DOWN
+
+Boundary_Container(Boundary_containerA, "Container A") {
+    Component(componentA, "Component", "API", "My description")
+    Component_Service(componentB, "Service", "API", "My description")
+    Component_Database(componentC, "Database", "API", "My description")
+    Component_PubSub(componentD, "PubSub", "API", "My description")
+    Component_Storage(componentE, "Storage", "API", "My description")
+    Component_Script(componentF, "Script", "API", "My description")
+    Component_App_Desktop(componentG, "Application Desktop", "API", "My description")
+    Component_App_Web(componentH, "Application Web", "API", "My description")
+    Component_App_Mobile(componentI, "Application mobile", "API", "My description")
+}
+Container(containerC2, "Container C", "API", "My description")
+
+Relation(Boundary_containerA, containerC2, "<--")
+Relation(componentC, containerC2, "<--")
+Relation(componentA, componentB, "<--")
+Relation(componentA, componentC, "..")
+Relation(componentB, componentC, "==")
+
+@enduml
