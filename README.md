@@ -6,7 +6,7 @@
 
 [plantuml-C4](https://github.com/N0N4M3pl/plantuml-C4) is library for creating C4 diagrams.
 
-![Main example](https://github.com/N0N4M3pl/plantuml-C4/example/contextView/main.png)
+![Main example](https://github.com/N0N4M3pl/plantuml-C4/tree/master/example/contextView/main.png)
 
 ## Getting Started
 
@@ -34,14 +34,14 @@ Remote file:
 - System
 - System_External
 
-![Context example](https://github.com/N0N4M3pl/plantuml-C4/example/contextView/main.png)
+![Context example](https://github.com/N0N4M3pl/plantuml-C4/tree/master/example/contextView/main.png)
 
 ### 2 - Container
 
 - Boundary_System
 - Container
 
-![Container example](https://github.com/N0N4M3pl/plantuml-C4/example/containerView/main.png)
+![Container example](https://github.com/N0N4M3pl/plantuml-C4/tree/master/example/containerView/main.png)
 
 ### 3 - Component
 
@@ -56,7 +56,7 @@ Remote file:
 - Component_App_Web
 - Component_App_Mobile
 
-![Component example](https://github.com/N0N4M3pl/plantuml-C4/example/componentView/main.png)
+![Component example](https://github.com/N0N4M3pl/plantuml-C4/tree/master/example/componentView/main.png)
 
 ### 4 - Code
 
