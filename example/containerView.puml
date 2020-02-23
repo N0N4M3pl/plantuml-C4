@@ -6,14 +6,24 @@
 LAYOUT_TOP_DOWN
 
 Boundary_System(Boundary_systemA, "System A") {
-    Container(containerA, "Container A", "API", "My description")
-    Container(containerB, "Container B", "API", "My description")
+    Container(containerA, "Component", "API", "My description")
+    Container_Script(containerF, "Script", "API", "My description")
+    Container_MicroService(containerJ, "Micro Service", "API", "My description")
+    Container_Service(containerB, "Service", "API", "My description")
+    Container_Database(containerC, "Database", "API", "My description")
+    Container_PubSub(containerD, "PubSub", "API", "My description")
+    Container_Storage(containerE, "Storage", "API", "My description")
+    Application_Desktop(containerG, "Application Desktop", "API", "My description")
+    Application_Web_ClientSide(containerH, "Client-side Web Application", "API", "My description")
+    Application_Web_ServerSide(containerK, "Server-side Web Application", "API", "My description")
+    Application_Mobile(containerI, "Application mobile", "API", "My description")
 }
-Container(containerC, "Container C", "API", "My description")
-System_External(systemB2, "System B")
+System_External(systemB, "System B")
 
-Relation(containerB, systemB2, "-->")
-Relation(containerA, containerB, "-->")
-Relation(containerA, containerC, "<--")
+Relation(Boundary_systemA, systemB, "<--")
+Relation(containerC, systemB, "<--")
+Relation(containerA, containerB, "<--")
+Relation(containerA, containerC, "..")
+Relation(containerB, containerC, "==")
 
 @enduml

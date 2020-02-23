@@ -22,98 +22,26 @@ skinparam rectangle<<boundary container>> {
 skinparam component<<component>> {
     StereotypeFontColor FONT_COLOR
     FontColor FONT_COLOR
-    BackgroundColor COLOR_BLUE_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Component_Script(alias, label, technology, description) component "==label\n [technology]\n //description//" <<component script>> as alias
-skinparam component<<component script>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_YELLOW_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Component_MicroService(alias, label, technology, description) component "==label\n [technology]\n //description//" <<component microservice>> as alias
-skinparam component<<component microservice>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_ORANGE_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Component_Service(alias, label, technology, description) component "==label\n [technology]\n //description//" <<component service>> as alias
-skinparam component<<component service>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_RED_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
     Shadowing false
 }
 
 !define Component_Database(alias, label, technology, description) database "==label\n [technology]\n //description//" <<component database>> as alias
 skinparam database<<component database>> {
-    StereotypeFontColor FONT_COLOR_LIGHT
-    FontColor FONT_COLOR_LIGHT
-    BackgroundColor COLOR_BLUE
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Component_PubSub(alias, label, technology, description) queue "==label\n [technology]\n //description//" <<component pubsub>> as alias
-skinparam queue<<component pubsub>> {
-    StereotypeFontColor FONT_COLOR_LIGHT
-    FontColor FONT_COLOR_LIGHT
-    BackgroundColor COLOR_BLUE
-    BorderColor COLOR_BLACK_LIGHT
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
     Shadowing false
 }
 
 !define Component_Storage(alias, label, technology, description) stack "==label\n [technology]\n //description//" <<component storage>> as alias
 skinparam stack<<component storage>> {
-    StereotypeFontColor FONT_COLOR_LIGHT
-    FontColor FONT_COLOR_LIGHT
-    BackgroundColor COLOR_BLUE
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Application_Web_ServerSide(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application web serverside>> as alias
-skinparam node<<application web serverside>> {
     StereotypeFontColor FONT_COLOR
     FontColor FONT_COLOR
-    BackgroundColor COLOR_TURQUOISE_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Application_Web_ClientSide(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application web clientside>> as alias
-skinparam node<<application web clientside>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_GREEN_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Application_Desktop(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application desktop>> as alias
-skinparam node<<application desktop>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_GREEN_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
-    Shadowing false
-}
-
-!define Application_Mobile(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application mobile>> as alias
-skinparam node<<application mobile>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_GREEN_LIGHT
-    BorderColor COLOR_BLACK_LIGHT
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor COMPONENT_BD_COLOR
     Shadowing false
 }
 

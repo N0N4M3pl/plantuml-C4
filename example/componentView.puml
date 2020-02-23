@@ -9,23 +9,16 @@
 LAYOUT_TOP_DOWN
 
 Boundary_Container(Boundary_containerA, "Container A") {
-    Component(componentA, "Component", "API", "My description")
-    Component_Script(componentF, "Script", "API", "My description")
-    Component_MicroService(componentJ, "Micro Service", "API", "My description")
-    Component_Service(componentB, "Service", "API", "My description")
-    Component_Database(componentC, "Database", "API", "My description")
-    Component_PubSub(componentD, "PubSub", "API", "My description")
-    Component_Storage(componentE, "Storage", "API", "My description")
-    Application_Desktop(componentG, "Application Desktop", "API", "My description")
-    Application_Web_ClientSide(componentH, "Client-side Web Application", "API", "My description")
-    Application_Web_ServerSide(componentK, "Server-side Web Application", "API", "My description")
-    Application_Mobile(componentI, "Application mobile", "API", "My description")
+    Component(componentA, "Component A", "API", "My description")
+    Component(componentB, "Component B", "API", "My description")
+    Component(componentC, "Component C", "API", "My description")
+    Component_Database(componentD, "Component D", "API", "My description")
+    Component_Storage(componentE, "Component E", "API", "My description")
 }
 Container(containerC2, "Container C", "API", "My description")
 
 Relation(Boundary_containerA, containerC2, "<--")
-Relation(componentC, containerC2, "<--")
-Relation(componentA, componentB, "<--")
+Relation(componentA, containerC2, "<--")
 Relation(componentA, componentC, "..")
 Relation(componentB, componentC, "==")
 

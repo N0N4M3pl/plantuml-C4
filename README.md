@@ -40,6 +40,16 @@ Remote file:
 
 - Boundary_System
 - Container
+- Container_Script
+- Container_Service
+- Container_MicroService
+- Container_Database
+- Container_PubSub
+- Container_Storage
+- Application_Web_ServerSide
+- Application_Web_ClientSide
+- Application_Desktop
+- Application_Mobile
 
 ![Container example](https://github.com/N0N4M3pl/plantuml-C4/tree/master/example/containerView/main.png?raw=true)
 
@@ -47,14 +57,8 @@ Remote file:
 
 - Boundary_Container
 - Component
-- Component_Service
 - Component_Database
-- Component_PubSub
 - Component_Storage
-- Component_Script
-- Component_App_Desktop
-- Component_App_Web
-- Component_App_Mobile
 
 ![Component example](https://github.com/N0N4M3pl/plantuml-C4/tree/master/example/componentView/main.png?raw=true)
 

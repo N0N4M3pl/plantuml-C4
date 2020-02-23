@@ -27,6 +27,96 @@ skinparam rectangle<<container>> {
     Shadowing false
 }
 
+!define Container_Script(alias, label, technology, description) rectangle "==label\n [technology]\n //description//" <<container script>> as alias
+skinparam rectangle<<container script>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_YELLOW_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Container_MicroService(alias, label, technology, description) rectangle "==label\n [technology]\n //description//" <<container microservice>> as alias
+skinparam rectangle<<container microservice>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_ORANGE_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Container_Service(alias, label, technology, description) rectangle "==label\n [technology]\n //description//" <<container service>> as alias
+skinparam rectangle<<container service>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_RED_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Container_Database(alias, label, technology, description) database "==label\n [technology]\n //description//" <<container database>> as alias
+skinparam database<<container database>> {
+    StereotypeFontColor FONT_COLOR_LIGHT
+    FontColor FONT_COLOR_LIGHT
+    BackgroundColor COLOR_BLUE
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Container_PubSub(alias, label, technology, description) queue "==label\n [technology]\n //description//" <<container pubsub>> as alias
+skinparam queue<<container pubsub>> {
+    StereotypeFontColor FONT_COLOR_LIGHT
+    FontColor FONT_COLOR_LIGHT
+    BackgroundColor COLOR_BLUE
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Container_Storage(alias, label, technology, description) stack "==label\n [technology]\n //description//" <<container storage>> as alias
+skinparam stack<<container storage>> {
+    StereotypeFontColor FONT_COLOR_LIGHT
+    FontColor FONT_COLOR_LIGHT
+    BackgroundColor COLOR_BLUE
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Application_Web_ServerSide(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application web serverside>> as alias
+skinparam node<<application web serverside>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_TURQUOISE_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Application_Web_ClientSide(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application web clientside>> as alias
+skinparam node<<application web clientside>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_GREEN_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Application_Desktop(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application desktop>> as alias
+skinparam node<<application desktop>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_GREEN_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
+!define Application_Mobile(alias, label, technology, description) node "==label\n [technology]\n //description//" <<application mobile>> as alias
+skinparam node<<application mobile>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
+    BackgroundColor COLOR_GREEN_LIGHT
+    BorderColor CONTAINER_BD_COLOR
+    Shadowing false
+}
+
 ' ----------------------------------------------------
 ' ----------------------------------------------------
 
