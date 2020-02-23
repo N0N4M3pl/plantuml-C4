@@ -1,7 +1,7 @@
 @startuml main
 
-!include ../src/c4-container.puml
-!include ../src/c4-context.puml
+!include ../src/C4-Container.puml
+!include ../src/C4-Context.puml
 
 LAYOUT_TOP_DOWN
 

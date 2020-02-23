@@ -16,6 +16,9 @@ Depending on what diagram you build, you need to include specified file:
 * [C4-Component.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Component.puml)
 * C4-Code.puml (not yet supported)
 
+If you need, you can use many of them in one file (you can mix them together).
+Its depend what you want to show on diagram.
+
 ### Example:
 
 Local file:
@@ -31,10 +34,14 @@ Remote file:
 - System
 - System_External
 
+![Context example](https://github.com/N0N4M3pl/plantuml-C4/example/contextView/main.png)
+
 ### 2 - Container
 
 - Boundary_System
 - Container
+
+![Container example](https://github.com/N0N4M3pl/plantuml-C4/example/containerView/main.png)
 
 ### 3 - Component
 
@@ -48,6 +55,12 @@ Remote file:
 - Component_App_Desktop
 - Component_App_Web
 - Component_App_Mobile
+
+![Component example](https://github.com/N0N4M3pl/plantuml-C4/example/componentView/main.png)
+
+### 4 - Code
+
+*not yet supported*
 
 ### Common - for all views
 

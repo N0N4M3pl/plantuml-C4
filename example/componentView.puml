@@ -1,7 +1,10 @@
 @startuml main
 
-!include ../src/c4-component.puml
-!include ../src/c4-container.puml
+!include ../src/C4-Component.puml
+!include ../src/C4-Container.puml
+
+' `!include https://github.com/N0N4M3pl/plantuml-C4/src/C4-Component.puml`
+' `!include https://github.com/N0N4M3pl/plantuml-C4/src/C4-Container.puml`
 
 LAYOUT_TOP_DOWN
 
