@@ -1,30 +1,56 @@
 # plantuml-C4
 
-## Common elements
+[PlantUML](https://plantuml.com/) is tool for creating diagrams using a simple and intuitive language.
 
-Boundary, Relationship
+[C4](https://c4model.com/) is model for visualising software architecture.
 
-Person, Relation
-Boundary
+[plantuml-C4](https://github.com/N0N4M3pl/plantuml-C4) is library for creating C4 diagrams.
 
-## Context == System
+![Main example](https://github.com/N0N4M3pl/plantuml-C4/example/contextView/main.png)
 
-System, Person, External_system, External_person
-System_Boundary
+## Getting Started
 
-System, System_External
-Boundary_System
+Depending on what diagram you build, you need to include specified file:
+* [C4-Context.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Context.puml)
+* [C4-Container.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Container.puml)
+* [C4-Component.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Component.puml)
+* C4-Code.puml (not yet supported)
 
-## Container
+### Example:
 
-Container, Container_DB
-Container_Boundary
+Local file:
+`!include /src/C4-Context.puml`
 
-Container
-Boundary_Container
+Remote file:
+`!include https://github.com/N0N4M3pl/plantuml-C4/src/C4-Context.puml`
 
-## Component
+## Elements
 
-Component, Component_DB
+### 1 - Context
 
-Component, Component_Service, Component_Database, Component_PubSub, Component_Storage, Component_App_Mobile, Component_App_Web, Component_App_Desktop, Component_Script
+- System
+- System_External
+
+### 2 - Container
+
+- Boundary_System
+- Container
+
+### 3 - Component
+
+- Boundary_Container
+- Component
+- Component_Service
+- Component_Database
+- Component_PubSub
+- Component_Storage
+- Component_Script
+- Component_App_Desktop
+- Component_App_Web
+- Component_App_Mobile
+
+### Common - for all views
+
+- Boundary
+- Person
+- Relation
