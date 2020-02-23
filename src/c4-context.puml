@@ -7,20 +7,22 @@
 ' Context
 ' ----------------------------------------------------
 
-!define System(alias, label) node "==label" <<system>> as alias
-skinparam node<<system>> {
-    StereotypeFontColor SYSTEM_FT_COLOR
-    FontColor SYSTEM_FT_COLOR
+!define System(alias, label) rectangle "==label" <<system>> as alias
+skinparam rectangle<<system>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
     BackgroundColor SYSTEM_BG_COLOR
     BorderColor SYSTEM_BD_COLOR
+    Shadowing false
 }
 
-!define System_External(alias, label) node "==label" <<system external>> as alias
-skinparam node<<system external>> {
-    StereotypeFontColor SYSTEM_EXTERNAL_FT_COLOR
-    FontColor SYSTEM_EXTERNAL_FT_COLOR
+!define System_External(alias, label) rectangle "==label" <<system external>> as alias
+skinparam rectangle<<system external>> {
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
     BackgroundColor SYSTEM_EXTERNAL_BG_COLOR
     BorderColor SYSTEM_EXTERNAL_BD_COLOR
+    Shadowing false
 }
 
 ' ----------------------------------------------------

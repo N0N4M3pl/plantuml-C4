@@ -8,27 +8,28 @@
 
 !define Boundary(alias, label) rectangle "==label" <<boundary>> as alias
 skinparam rectangle<<boundary>> {
-    Shadowing false
-    StereotypeFontSize 0
-    FontColor FONT_COLOR_DARK
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
     BackgroundColor BOUNDARY_BG_COLOR
     BorderColor BOUNDARY_BD_COLOR
     BorderStyle dashed
     BorderThickness 0
+    Shadowing false
 }
 
 !define Person(alias, label) actor "==label" <<person>> as alias
 skinparam actor<<person>> {
-    StereotypeFontColor FONT_COLOR_DARK
-    FontColor FONT_COLOR_DARK
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
     BackgroundColor PERSON_BG_COLOR
     BorderColor PERSON_BD_COLOR
+    Shadowing false
 }
 
 !define Relation(alias1, alias2, direction="--", label="") alias1 direction alias2 : "label"
 skinparam Arrow {
-    Color FONT_COLOR_DARK
-    FontColor FONT_COLOR_DARK
+    FontColor FONT_COLOR
+    Color RELATION_COLOR
     FontSize 12
 }
 

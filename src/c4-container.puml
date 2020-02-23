@@ -9,21 +9,22 @@
 
 !define Boundary_System(alias, label) rectangle "==label" <<boundary system>> as alias
 skinparam rectangle<<boundary system>> {
-    Shadowing false
-    StereotypeFontColor BOUNDARY_SYSTEM_FT_COLOR
-    FontColor BOUNDARY_SYSTEM_FT_COLOR
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
     BackgroundColor BOUNDARY_SYSTEM_BG_COLOR
     BorderColor BOUNDARY_SYSTEM_BD_COLOR
     BorderStyle dashed
-    BorderThickness 0
+    BorderThickness 1
+    Shadowing false
 }
 
 !define Container(alias, label, technology, description) rectangle "==label\n [technology]\n //description//" <<container>> as alias
 skinparam rectangle<<container>> {
-    StereotypeFontColor CONTAINER_FT_COLOR
-    FontColor CONTAINER_FT_COLOR
+    StereotypeFontColor FONT_COLOR
+    FontColor FONT_COLOR
     BackgroundColor CONTAINER_BG_COLOR
     BorderColor CONTAINER_BD_COLOR
+    Shadowing false
 }
 
 ' ----------------------------------------------------

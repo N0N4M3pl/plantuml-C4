@@ -4,70 +4,32 @@
 ' Colors
 ' ----------------------------------------------------
 
+' https://flatuicolors.com/palette/defo
+
 ' Main
-!define COLOR_CONTEXT #004599
-!define COLOR_CONTAINER #0080c8
-!define COLOR_COMPONENT #00b5bc
-!define COLOR_CODE #3ae28b
-!define COLOR_COMMON #f2ff66
+!define COLOR_BLACK #2c3e50
+!define COLOR_BLACK_LIGHT #34495e
+!define COLOR_GRAY #7f8c8d
+!define COLOR_GRAY_LIGHT #95a5a6
+!define COLOR_WHITE #bdc3c7
+!define COLOR_WHITE_LIGHT #ecf0f1
 
-' Context
-!define COLOR_CONTEXT_1 #2d4059
-!define COLOR_CONTEXT_2 #315573
-!define COLOR_CONTEXT_3 #306b8c
-!define COLOR_CONTEXT_4 #2a82a5
-!define COLOR_CONTEXT_5 #1c9abc
-!define COLOR_CONTEXT_6 #00b2d1
-!define COLOR_CONTEXT_7 #00cce4
-!define COLOR_CONTEXT_8 #00e5f3
-!define COLOR_CONTEXT_9 #00ffff
+!define COLOR_YELLOW #f39c12
+!define COLOR_YELLOW_LIGHT #f1c40f
+!define COLOR_ORANGE #d35400
+!define COLOR_ORANGE_LIGHT #e67e22
+!define COLOR_RED #c0392b
+!define COLOR_RED_LIGHT #e74c3c
 
-!define COLOR_CONTEXT_1_B #2d4059
-!define COLOR_CONTEXT_2_B #315573
+!define COLOR_GREEN #27ae60
+!define COLOR_GREEN_LIGHT #2ecc71
+!define COLOR_TURQUOISE #16a085
+!define COLOR_TURQUOISE_LIGHT #1abc9c
+!define COLOR_BLUE #2980b9
+!define COLOR_BLUE_LIGHT #3498db
 
-' Container
-!define COLOR_CONTAINER_1 #0080c8
-!define COLOR_CONTAINER_2 #126fad
-!define COLOR_CONTAINER_3 #195f92
-!define COLOR_CONTAINER_4 #1c4f78
-!define COLOR_CONTAINER_5 #1b3f5f
-!define COLOR_CONTAINER_6 #193047
-!define COLOR_CONTAINER_7 #152231
-!define COLOR_CONTAINER_8 #0f151c
-!define COLOR_CONTAINER_9 #000000
-
-' Component
-!define COLOR_COMPONENT_1 #00b5bc
-!define COLOR_COMPONENT_2 #00a4b1
-!define COLOR_COMPONENT_3 #0092a6
-!define COLOR_COMPONENT_4 #008199
-!define COLOR_COMPONENT_5 #00718b
-!define COLOR_COMPONENT_6 #00607c
-!define COLOR_COMPONENT_7 #00516d
-!define COLOR_COMPONENT_8 #00425d
-!define COLOR_COMPONENT_9 #00334d
-
-' Code
-!define COLOR_CODE_1 #3ae28b
-!define COLOR_CODE_2 #35c977
-!define COLOR_CODE_3 #30b163
-!define COLOR_CODE_4 #299951
-!define COLOR_CODE_5 #21823f
-!define COLOR_CODE_6 #186c2f
-!define COLOR_CODE_7 #0e5620
-!define COLOR_CODE_8 #044211
-!define COLOR_CODE_9 #002e00
-
-' Common
-!define COLOR_COMMON_1 #f2ff66
-!define COLOR_COMMON_2 #d8dc57
-!define COLOR_COMMON_3 #bdbb4a
-!define COLOR_COMMON_4 #a29b3d
-!define COLOR_COMMON_5 #867c31
-!define COLOR_COMMON_6 #6a5f26
-!define COLOR_COMMON_7 #4e441c
-!define COLOR_COMMON_8 #332b11
-!define COLOR_COMMON_9 #1b1400
+!define COLOR_VIOLET #8e44ad
+!define COLOR_VIOLET_LIGHT #9b59b6
 
 ' ----------------------------------------------------
 ' ----------------------------------------------------
