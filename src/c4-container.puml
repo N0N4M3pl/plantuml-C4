@@ -1,4 +1,4 @@
-@startuml c4
+@startuml C4-Container
 
 !include style.puml
 !include common.puml
@@ -10,8 +10,8 @@
 !define Boundary_System(alias, label) rectangle "==label" <<boundary system>> as alias
 skinparam rectangle<<boundary system>> {
     Shadowing false
-    StereotypeFontSize 0
-    FontColor FONT_COLOR_DARK
+    StereotypeFontColor BOUNDARY_SYSTEM_FT_COLOR
+    FontColor BOUNDARY_SYSTEM_FT_COLOR
     BackgroundColor BOUNDARY_SYSTEM_BG_COLOR
     BorderColor BOUNDARY_SYSTEM_BD_COLOR
     BorderStyle dashed
@@ -20,8 +20,8 @@ skinparam rectangle<<boundary system>> {
 
 !define Container(alias, label, technology, description) rectangle "==label\n [technology]\n //description//" <<container>> as alias
 skinparam rectangle<<container>> {
-    StereotypeFontColor FONT_COLOR_DARK
-    FontColor FONT_COLOR_DARK
+    StereotypeFontColor CONTAINER_FT_COLOR
+    FontColor CONTAINER_FT_COLOR
     BackgroundColor CONTAINER_BG_COLOR
     BorderColor CONTAINER_BD_COLOR
 }

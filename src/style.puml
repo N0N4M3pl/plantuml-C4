@@ -1,4 +1,6 @@
-@startuml c4
+@startuml C4-style
+
+!include colors.puml
 
 ' ----------------------------------------------------
 ' Document
@@ -12,33 +14,38 @@ skinparam wrapWidth 200
 skinparam maxMessageSize 150
 
 ' ----------------------------------------------------
-' Colors
+' Views
 ' ----------------------------------------------------
 
-!define FONT_COLOR_DARK #333
+!define FONT_COLOR_DARK #444
+!define FONT_COLOR_LIGHT #EEE
 
 ' Common
-!define BOUNDARY_BG_COLOR LightSkyBlue
-!define BOUNDARY_BD_COLOR LightSlateGrey
-!define PERSON_BG_COLOR Gold
-!define PERSON_BD_COLOR GoldenRod
+!define BOUNDARY_BG_COLOR white
+!define BOUNDARY_BD_COLOR FONT_COLOR_DARK
+!define PERSON_BG_COLOR FONT_COLOR_DARK
+!define PERSON_BD_COLOR FONT_COLOR_DARK
 !define RELATION_COLOR FONT_COLOR_DARK
 
 ' Context
-!define SYSTEM_BG_COLOR LightSkyBlue
-!define SYSTEM_BD_COLOR LightSlateGrey
-!define SYSTEM_EXTERNAL_BG_COLOR LightSteelBlue
-!define SYSTEM_EXTERNAL_BD_COLOR LightSlateGrey
+!define SYSTEM_BG_COLOR white
+!define SYSTEM_BD_COLOR COLOR_CONTEXT_1
+!define SYSTEM_FT_COLOR FONT_COLOR_LIGHT
+!define SYSTEM_EXTERNAL_BG_COLOR white
+!define SYSTEM_EXTERNAL_BD_COLOR COLOR_CONTEXT_4
+!define SYSTEM_EXTERNAL_FT_COLOR FONT_COLOR_DARK
 
 ' Container
-!define BOUNDARY_SYSTEM_BG_COLOR LightSkyBlue
-!define BOUNDARY_SYSTEM_BD_COLOR LightSlateGrey
-!define CONTAINER_BG_COLOR Moccasin
-!define CONTAINER_BD_COLOR Peru
+!define BOUNDARY_SYSTEM_BG_COLOR white
+!define BOUNDARY_SYSTEM_BD_COLOR COLOR_CONTEXT_1_B
+!define BOUNDARY_SYSTEM_FT_COLOR FONT_COLOR_DARK
+!define CONTAINER_BG_COLOR white
+!define CONTAINER_BD_COLOR COLOR_CONTAINER_4
+!define CONTAINER_FT_COLOR FONT_COLOR_LIGHT
 
 ' Component
-!define BOUNDARY_CONTAINER_BG_COLOR LightSkyBlue
-!define BOUNDARY_CONTAINER_BD_COLOR LightSlateGrey
+!define BOUNDARY_CONTAINER_BG_COLOR white
+!define BOUNDARY_CONTAINER_BD_COLOR COLOR_CONTAINER_2
 !define COMPONENT_BG_COLOR #85BBF0
 !define COMPONENT_BD_COLOR #78A8D8
 
