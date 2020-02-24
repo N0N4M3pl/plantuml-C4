@@ -1,5 +1,7 @@
 @startuml C4-Container
 
+' !include style.puml
+' !include common.puml
 !include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/style.puml
 !include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/common.puml
 
@@ -16,113 +18,131 @@ title text
 ' Container
 ' ----------------------------------------------------
 
-!define Boundary_System(alias, label) rectangle "==label" <<boundary system>> as alias
-skinparam rectangle<<boundary system>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor BOUNDARY_SYSTEM_BG_COLOR
-    BorderColor BOUNDARY_SYSTEM_BD_COLOR
+!define System_Boundary(alias, label) rectangle "==label" <<system boundary>> as alias
+skinparam rectangle<<system boundary>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_SYSTEM_BG
+    BorderColor COLOR_BOUNDARY_SYSTEM_BD
     BorderStyle dashed
     BorderThickness 1
     Shadowing false
 }
 
-!define Container(alias, label, technology=" ", description=" ") rectangle "==label\n [technology]\n //description//" <<container>> as alias
+!define System_Package(alias, label) package "==label" <<system package>> as alias
+skinparam package<<system package>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_SYSTEM_BG
+    BorderColor COLOR_BOUNDARY_SYSTEM_BD
+    Shadowing false
+}
+
+!define Container(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<container>> as alias
 skinparam rectangle<<container>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor CONTAINER_BG_COLOR
-    BorderColor CONTAINER_BD_COLOR
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_CONTAINER_BG
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Container_Script(alias, label, technology=" ", description=" ") rectangle "==label\n [technology]\n //description//" <<container script>> as alias
-skinparam rectangle<<container script>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_YELLOW_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Container_Script(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<script container>> as alias
+skinparam rectangle<<script container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_YELLOW_2
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Container_MicroService(alias, label, technology=" ", description=" ") rectangle "==label\n [technology]\n //description//" <<container microservice>> as alias
-skinparam rectangle<<container microservice>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_ORANGE_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Container_MicroService(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<microservice container>> as alias
+skinparam rectangle<<microservice container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_ORANGE_2
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Container_Service(alias, label, technology=" ", description=" ") rectangle "==label\n [technology]\n //description//" <<container service>> as alias
-skinparam rectangle<<container service>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_RED_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Container_Service(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<service container>> as alias
+skinparam rectangle<<service container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_RED_2
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Container_Database(alias, label, technology=" ", description=" ") database "==label\n [technology]\n //description//" <<container database>> as alias
-skinparam database<<container database>> {
-    StereotypeFontColor FONT_COLOR_LIGHT
-    FontColor FONT_COLOR_LIGHT
-    BackgroundColor COLOR_BLUE
-    BorderColor CONTAINER_BD_COLOR
+!define Container_PubSub(alias, label, description=" ", technology="") queue "==label\n\n //description//\n ""technology"" " <<pubsub container>> as alias
+skinparam queue<<pubsub container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Container_PubSub(alias, label, technology=" ", description=" ") queue "==label\n [technology]\n //description//" <<container pubsub>> as alias
-skinparam queue<<container pubsub>> {
-    StereotypeFontColor FONT_COLOR_LIGHT
-    FontColor FONT_COLOR_LIGHT
-    BackgroundColor COLOR_BLUE
-    BorderColor CONTAINER_BD_COLOR
+!define Container_Database(alias, label, description=" ", technology="") database "==label\n\n //description//\n ""technology"" " <<database container>> as alias
+skinparam database<<database container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Container_Storage(alias, label, technology=" ", description=" ") stack "==label\n [technology]\n //description//" <<container storage>> as alias
-skinparam stack<<container storage>> {
-    StereotypeFontColor FONT_COLOR_LIGHT
-    FontColor FONT_COLOR_LIGHT
-    BackgroundColor COLOR_BLUE
-    BorderColor CONTAINER_BD_COLOR
+!define Container_Storage(alias, label, description=" ", technology="") stack "==label\n\n //description//\n ""technology"" " <<storage container>> as alias
+skinparam stack<<storage container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Application_Web_ServerSide(alias, label, technology=" ", description=" ") node "==label\n [technology]\n //description//" <<application web serverside>> as alias
-skinparam node<<application web serverside>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_TURQUOISE_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Container_Config(alias, label, description=" ", technology="") file "==label\n\n //description//\n ""technology"" " <<config container>> as alias
+skinparam file<<config container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Application_Web_ClientSide(alias, label, technology=" ", description=" ") node "==label\n [technology]\n //description//" <<application web clientside>> as alias
-skinparam node<<application web clientside>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_GREEN_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Application_WebServer(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<webserver application>> as alias
+skinparam rectangle<<webserver application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_TURQUOISE_2
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Application_Desktop(alias, label, technology=" ", description=" ") node "==label\n [technology]\n //description//" <<application desktop>> as alias
-skinparam node<<application desktop>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_GREEN_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Application_Web(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<web application>> as alias
+skinparam rectangle<<web application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_GREEN_2
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 
-!define Application_Mobile(alias, label, technology=" ", description=" ") node "==label\n [technology]\n //description//" <<application mobile>> as alias
-skinparam node<<application mobile>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COLOR_GREEN_LIGHT
-    BorderColor CONTAINER_BD_COLOR
+!define Application_Desktop(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<desktop application>> as alias
+skinparam rectangle<<desktop application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_GREEN_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Application_Mobile(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<mobile application>> as alias
+skinparam rectangle<<mobile application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_GREEN_2
+    BorderColor COLOR_CONTAINER_BD
     Shadowing false
 }
 

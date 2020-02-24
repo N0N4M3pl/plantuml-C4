@@ -40,16 +40,18 @@ Remote file:
 ### 2 - Container
 
 - Header_Container
-- Boundary_System
+- System_Boundary
+- System_Package
 - Container
 - Container_Script
 - Container_Service
 - Container_MicroService
-- Container_Database
 - Container_PubSub
+- Container_Database
 - Container_Storage
-- Application_Web_ServerSide
-- Application_Web_ClientSide
+- Container_Config
+- Application_WebServer
+- Application_Web
 - Application_Desktop
 - Application_Mobile
 
@@ -58,10 +60,13 @@ Remote file:
 ### 3 - Component
 
 - Header_Component
-- Boundary_Container
+- Container_Boundary
+- Container_Package
 - Component
+- Component_PubSub
 - Component_Database
 - Component_Storage
+- Component_Config
 
 ![Component example](/../master/example/componentView.png?raw=true)
 
@@ -73,6 +78,5 @@ Remote file:
 
 - Header
 - Footer
-- Boundary
 - Person
 - Relation

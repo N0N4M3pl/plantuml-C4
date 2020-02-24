@@ -1,5 +1,7 @@
 @startuml C4-Component
 
+' !include style.puml
+' !include common.puml
 !include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/style.puml
 !include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/common.puml
 
@@ -16,41 +18,68 @@ title text
 ' Component
 ' ----------------------------------------------------
 
-!define Boundary_Container(alias, label) rectangle "==label" <<boundary container>> as alias
-skinparam rectangle<<boundary container>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor BOUNDARY_CONTAINER_BG_COLOR
-    BorderColor BOUNDARY_CONTAINER_BD_COLOR
+!define Container_Boundary(alias, label) rectangle "==label" <<container boundary>> as alias
+skinparam rectangle<<container boundary>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_CONTAINER_BG
+    BorderColor COLOR_BOUNDARY_CONTAINER_BD
     BorderStyle dashed
     BorderThickness 1
     Shadowing false
 }
 
-!define Component(alias, label, technology=" ", description=" ") component "==label\n [technology]\n //description//" <<component>> as alias
+!define Container_Package(alias, label) package "==label" <<container package>> as alias
+skinparam package<<container package>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_CONTAINER_BG
+    BorderColor COLOR_BOUNDARY_CONTAINER_BD
+    Shadowing false
+}
+
+!define Component(alias, label, description=" ", technology="") component "==label\n\n //description//\n ""technology"" " <<component>> as alias
 skinparam component<<component>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COMPONENT_BG_COLOR
-    BorderColor COMPONENT_BD_COLOR
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
     Shadowing false
 }
 
-!define Component_Database(alias, label, technology=" ", description=" ") database "==label\n [technology]\n //description//" <<component database>> as alias
-skinparam database<<component database>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COMPONENT_BG_COLOR
-    BorderColor COMPONENT_BD_COLOR
+!define Component_PubSub(alias, label, description=" ", technology="") queue "==label\n\n //description//\n ""technology"" " <<pubsub component>> as alias
+skinparam queue<<pubsub component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
     Shadowing false
 }
 
-!define Component_Storage(alias, label, technology=" ", description=" ") stack "==label\n [technology]\n //description//" <<component storage>> as alias
-skinparam stack<<component storage>> {
-    StereotypeFontColor FONT_COLOR
-    FontColor FONT_COLOR
-    BackgroundColor COMPONENT_BG_COLOR
-    BorderColor COMPONENT_BD_COLOR
+!define Component_Database(alias, label, description=" ", technology="") database "==label\n\n //description//\n ""technology"" " <<database component>> as alias
+skinparam database<<database component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+!define Component_Storage(alias, label, description=" ", technology="") stack "==label\n\n //description//\n ""technology"" " <<storage component>> as alias
+skinparam stack<<storage component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+!define Component_Config(alias, label, description=" ", technology="") file "==label\n\n //description//\n ""technology"" " <<config component>> as alias
+skinparam file<<config component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
     Shadowing false
 }
 

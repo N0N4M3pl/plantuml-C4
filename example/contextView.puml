@@ -9,17 +9,21 @@ LAYOUT_TOP_DOWN
 ' Elements
 ' ----------------------------------------------------
 
-Person(personA, "Person A")
+Person(personA, "Person A", "Description")
 
-System(systemA, "System A")
-System_External(systemB, "System B")
+System(systemA, "System A", "Description")
+System(systemB, "System B")
+System_External(systemExt, "System External")
 
 ' ----------------------------------------------------
 ' Relations
 ' ----------------------------------------------------
 
-Relation(systemA, systemB, "-->", "info")
-Relation(personA, systemA, "-->")
+Relation(systemA, systemB, "-RIGHT->", "info")
+Relation(systemA, systemExt, "-DOWN->")
+Relation(systemB, systemExt, "-DOWN->")
+
+Relation(personA, systemA, "-RIGHT->")
 
 ' ----------------------------------------------------
 ' ----------------------------------------------------

@@ -1,36 +1,6 @@
 @startuml C4-style
 
 ' ----------------------------------------------------
-' Colors
-' ----------------------------------------------------
-
-' https://flatuicolors.com/palette/defo
-
-!define COLOR_BLACK #2c3e50
-!define COLOR_BLACK_LIGHT #34495e
-!define COLOR_GRAY #7f8c8d
-!define COLOR_GRAY_LIGHT #95a5a6
-!define COLOR_WHITE #bdc3c7
-!define COLOR_WHITE_LIGHT #ecf0f1
-
-!define COLOR_YELLOW #f39c12
-!define COLOR_YELLOW_LIGHT #f1c40f
-!define COLOR_ORANGE #d35400
-!define COLOR_ORANGE_LIGHT #e67e22
-!define COLOR_RED #c0392b
-!define COLOR_RED_LIGHT #e74c3c
-
-!define COLOR_GREEN #27ae60
-!define COLOR_GREEN_LIGHT #2ecc71
-!define COLOR_TURQUOISE #16a085
-!define COLOR_TURQUOISE_LIGHT #1abc9c
-!define COLOR_BLUE #2980b9
-!define COLOR_BLUE_LIGHT #3498db
-
-!define COLOR_VIOLET #8e44ad
-!define COLOR_VIOLET_LIGHT #9b59b6
-
-' ----------------------------------------------------
 ' Document
 ' ----------------------------------------------------
 
@@ -42,36 +12,67 @@ skinparam wrapWidth 200
 skinparam maxMessageSize 150
 
 ' ----------------------------------------------------
-' Views
+' Colors
 ' ----------------------------------------------------
 
-!define FONT_COLOR COLOR_BLACK
-!define FONT_COLOR_LIGHT COLOR_WHITE_LIGHT
+!define COLOR_GRAY_1 #ecf0f1
+!define COLOR_GRAY_2 #b6c1c5
+!define COLOR_GRAY_3 #84939c
+!define COLOR_GRAY_4 #566775
+!define COLOR_GRAY_5 #2c3e50
+
+!define COLOR_YELLOW_1 #fffa6f
+!define COLOR_YELLOW_2 #f8df46
+!define COLOR_YELLOW_3 #f1c40f
+
+!define COLOR_ORANGE_1 #ffe386
+!define COLOR_ORANGE_2 #f2b24e
+!define COLOR_ORANGE_3 #e67e22
+
+!define COLOR_RED_1 #ffb99c
+!define COLOR_RED_2 #f87b57
+!define COLOR_RED_3 #eb1e1e
+
+!define COLOR_GREEN_1 #85ffb7
+!define COLOR_GREEN_2 #5ee594
+!define COLOR_GREEN_3 #2ecc71
+
+!define COLOR_TURQUOISE_1 #93e8ea
+!define COLOR_TURQUOISE_2 #63d0d3
+!define COLOR_TURQUOISE_3 #1ab9bc
+
+!define COLOR_BLUE_1 #98e1ff
+!define COLOR_BLUE_2 #65bded
+!define COLOR_BLUE_3 #3498db
+
+' Document
+!define COLOR_FONT_DARK COLOR_GRAY_5
+!define COLOR_FONT_LIGHT COLOR_GRAY_1
 
 ' Common
-!define BOUNDARY_BG_COLOR white
-!define BOUNDARY_BD_COLOR COLOR_WHITE
-!define PERSON_BG_COLOR COLOR_BLACK_LIGHT
-!define PERSON_BD_COLOR COLOR_BLACK_LIGHT
-!define RELATION_COLOR COLOR_BLACK_LIGHT
+!define COLOR_BOUNDARY_BG white
+!define COLOR_BOUNDARY_BD COLOR_GRAY_2
+!define COLOR_PERSON_BG COLOR_GRAY_4
+!define COLOR_PERSON_BD COLOR_GRAY_4
+!define COLOR_RELATION COLOR_GRAY_4
 
 ' Context
-!define SYSTEM_BG_COLOR COLOR_WHITE_LIGHT
-!define SYSTEM_BD_COLOR COLOR_BLACK_LIGHT
-!define SYSTEM_EXTERNAL_BG_COLOR COLOR_WHITE_LIGHT
-!define SYSTEM_EXTERNAL_BD_COLOR COLOR_GRAY_LIGHT
+!define COLOR_SYSTEM_BG COLOR_GRAY_1
+!define COLOR_SYSTEM_BD COLOR_GRAY_4
+!define COLOR_SYSTEM_EXTERNAL_BG COLOR_GRAY_1
+!define COLOR_SYSTEM_EXTERNAL_BD COLOR_GRAY_2
 
 ' Container
-!define BOUNDARY_SYSTEM_BG_COLOR COLOR_WHITE_LIGHT
-!define BOUNDARY_SYSTEM_BD_COLOR COLOR_BLACK_LIGHT
-!define CONTAINER_BG_COLOR COLOR_BLUE_LIGHT
-!define CONTAINER_BD_COLOR COLOR_BLACK_LIGHT
+!define COLOR_BOUNDARY_SYSTEM_BG COLOR_GRAY_1
+!define COLOR_BOUNDARY_SYSTEM_BD COLOR_GRAY_4
+!define COLOR_CONTAINER_BG COLOR_BLUE_2
+!define COLOR_CONTAINER_BD COLOR_GRAY_4
 
 ' Component
-!define BOUNDARY_CONTAINER_BG_COLOR COLOR_WHITE_LIGHT
-!define BOUNDARY_CONTAINER_BD_COLOR COLOR_BLUE_LIGHT
-!define COMPONENT_BG_COLOR white
-!define COMPONENT_BD_COLOR COLOR_VIOLET
+!define COLOR_BOUNDARY_CONTAINER_BG COLOR_GRAY_1
+!define COLOR_BOUNDARY_CONTAINER_BD COLOR_BLUE_2
+!define COLOR_COMPONENT_BG COLOR_GRAY_1
+!define COLOR_COMPONENT_BD COLOR_BLUE_3
 
 ' ----------------------------------------------------
 ' ----------------------------------------------------

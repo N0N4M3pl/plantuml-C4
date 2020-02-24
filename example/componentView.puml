@@ -10,20 +10,24 @@ LAYOUT_TOP_DOWN
 ' Elements
 ' ----------------------------------------------------
 
-Boundary_Container(Boundary_containerA, "Container A") {
-    Component(componentA, "Component A", "API", "My description")
-    Component(componentB, "Component B", "API", "My description")
-    Component(componentC, "Component C", "API", "My description")
-    Component_Database(componentD, "Component D", "API", "My description")
-    Component_Storage(componentE, "Component E", "API", "My description")
+Container_Boundary(containerA, "Container A") {
+    Component(componentA, "Component A", "Description", "API")
+    Component(componentB, "Component B", "Description", "API")
+    Component(componentC, "Component C", "Description", "API")
+    Component_Database(componentD, "Component D", "Description", "API")
+    Component_Storage(componentE, "Component E", "Description", "API")
+    Container_Package(packageA, "Package name") {
+        Component_PubSub(componentF, "Component F", "Description", "API")
+        Component_Config(componentG, "Config file", "Description", "API")
+    }
 }
-Container(containerC2, "Container C", "API", "My description")
+Container(containerC2, "Container C", "Description", "API")
 
 ' ----------------------------------------------------
 ' Relations
 ' ----------------------------------------------------
 
-Relation(Boundary_containerA, containerC2, "<--")
+Relation(containerA, containerC2, "<--")
 Relation(componentA, containerC2, "<--")
 Relation(componentA, componentC, "..")
 Relation(componentB, componentC, "==")
