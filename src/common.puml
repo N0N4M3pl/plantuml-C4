@@ -1,7 +1,7 @@
 @startuml C4-Common
 
-!include style.puml
-' !include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/style.puml
+' !include style.puml
+!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/style.puml
 
 ' ----------------------------------------------------
 ' Document
