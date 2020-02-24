@@ -11,9 +11,9 @@
 ## Getting Started
 
 Depending on what diagram you build, you need to include specified file:
-* [C4-Context.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Context.puml)
-* [C4-Container.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Container.puml)
-* [C4-Component.puml](https://github.com/N0N4M3pl/plantuml-C4/src/C4-Component.puml)
+* [C4-Context.puml](https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Context.puml)
+* [C4-Container.puml](https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Container.puml)
+* [C4-Component.puml](https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Component.puml)
 * C4-Code.puml (not yet supported)
 
 If you need, you can use many of them in one file (you can mix them together).
@@ -25,7 +25,7 @@ Local file:
 `!include /src/C4-Context.puml`
 
 Remote file:
-`!include https://github.com/N0N4M3pl/plantuml-C4/src/C4-Context.puml`
+`!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Context.puml`
 
 ## Elements
 
