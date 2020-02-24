@@ -1,12 +1,14 @@
-@startuml main
+@startuml componentView
 
 !include ../src/C4-Component.puml
 !include ../src/C4-Container.puml
 
-' `!include https://github.com/N0N4M3pl/plantuml-C4/src/C4-Component.puml`
-' `!include https://github.com/N0N4M3pl/plantuml-C4/src/C4-Container.puml`
-
+Header_Component("Component View Example")
 LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
 
 Boundary_Container(Boundary_containerA, "Container A") {
     Component(componentA, "Component A", "API", "My description")
@@ -17,9 +19,18 @@ Boundary_Container(Boundary_containerA, "Container A") {
 }
 Container(containerC2, "Container C", "API", "My description")
 
+' ----------------------------------------------------
+' Relations
+' ----------------------------------------------------
+
 Relation(Boundary_containerA, containerC2, "<--")
 Relation(componentA, containerC2, "<--")
 Relation(componentA, componentC, "..")
 Relation(componentB, componentC, "==")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer()
 
 @enduml

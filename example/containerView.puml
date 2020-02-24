@@ -1,12 +1,17 @@
-@startuml main
+@startuml containerView
 
 !include ../src/C4-Container.puml
 !include ../src/C4-Context.puml
 
+Header_Container("Container View Example")
 LAYOUT_TOP_DOWN
 
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
 Boundary_System(Boundary_systemA, "System A") {
-    Container(containerA, "Component", "API", "My description")
+    Container(containerA, "Container", "API", "My description")
     Container_Script(containerF, "Script", "API", "My description")
     Container_MicroService(containerJ, "Micro Service", "API", "My description")
     Container_Service(containerB, "Service", "API", "My description")
@@ -20,10 +25,19 @@ Boundary_System(Boundary_systemA, "System A") {
 }
 System_External(systemB, "System B")
 
+' ----------------------------------------------------
+' Relations
+' ----------------------------------------------------
+
 Relation(Boundary_systemA, systemB, "<--")
 Relation(containerC, systemB, "<--")
 Relation(containerA, containerB, "<--")
 Relation(containerA, containerC, "..")
 Relation(containerB, containerC, "==")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer()
 
 @enduml

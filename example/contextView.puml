@@ -1,22 +1,29 @@
-@startuml main
+@startuml contextView
 
 !include ../src/C4-Context.puml
 
+Header_Context("Context View Example")
 LAYOUT_TOP_DOWN
 
-' skinparam Monochrome true
-
-center header Example
-title Context View
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
 
 Person(personA, "Person A")
 
 System(systemA, "System A")
 System_External(systemB, "System B")
 
-Relation(systemA, systemB, "-->", "pobiera dane z")
-Relation(personA, systemA, "-->", "korzysta z")
+' ----------------------------------------------------
+' Relations
+' ----------------------------------------------------
 
-center footer Example
+Relation(systemA, systemB, "-->", "info")
+Relation(personA, systemA, "-->")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer()
 
 @enduml
