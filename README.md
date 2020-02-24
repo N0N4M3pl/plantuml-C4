@@ -31,6 +31,7 @@ Remote file:
 
 ### 1 - Context
 
+- Header_Context
 - System
 - System_External
 
@@ -38,6 +39,7 @@ Remote file:
 
 ### 2 - Container
 
+- Header_Container
 - Boundary_System
 - Container
 - Container_Script
@@ -55,6 +57,7 @@ Remote file:
 
 ### 3 - Component
 
+- Header_Component
 - Boundary_Container
 - Component
 - Component_Database
@@ -68,6 +71,8 @@ Remote file:
 
 ### Common - for all views
 
+- Header
+- Footer
 - Boundary
 - Person
 - Relation

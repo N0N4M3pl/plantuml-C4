@@ -1,7 +1,16 @@
 @startuml C4-Context
 
-!include style.puml
-!include common.puml
+!include "https://github.com/N0N4M3pl/plantuml-C4/master/src/style.puml"
+!include "https://github.com/N0N4M3pl/plantuml-C4/master/src/common.puml"
+
+' ----------------------------------------------------
+' Document
+' ----------------------------------------------------
+
+!definelong Header_Context(text)
+left header Context View
+title text
+!enddefinelong
 
 ' ----------------------------------------------------
 ' Context

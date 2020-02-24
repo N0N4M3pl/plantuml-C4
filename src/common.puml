@@ -1,12 +1,25 @@
 @startuml C4-Common
 
-!include style.puml
+!include "https://github.com/N0N4M3pl/plantuml-C4/master/src/style.puml"
+
+' ----------------------------------------------------
+' Document
+' ----------------------------------------------------
+
+!definelong Header(text)
+left header Custom View
+title text
+!enddefinelong
+
+!definelong Footer()
+right footer %date()
+!enddefinelong
 
 ' ----------------------------------------------------
 ' Common
 ' ----------------------------------------------------
 
-!define Boundary(alias, label) rectangle "==label" <<boundary>> as alias
+!define Boundary(alias, label=" ") rectangle "==label" <<boundary>> as alias
 skinparam rectangle<<boundary>> {
     StereotypeFontColor FONT_COLOR
     FontColor FONT_COLOR

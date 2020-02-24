@@ -1,6 +1,34 @@
 @startuml C4-style
 
-!include colors.puml
+' ----------------------------------------------------
+' Colors
+' ----------------------------------------------------
+
+' https://flatuicolors.com/palette/defo
+
+!define COLOR_BLACK #2c3e50
+!define COLOR_BLACK_LIGHT #34495e
+!define COLOR_GRAY #7f8c8d
+!define COLOR_GRAY_LIGHT #95a5a6
+!define COLOR_WHITE #bdc3c7
+!define COLOR_WHITE_LIGHT #ecf0f1
+
+!define COLOR_YELLOW #f39c12
+!define COLOR_YELLOW_LIGHT #f1c40f
+!define COLOR_ORANGE #d35400
+!define COLOR_ORANGE_LIGHT #e67e22
+!define COLOR_RED #c0392b
+!define COLOR_RED_LIGHT #e74c3c
+
+!define COLOR_GREEN #27ae60
+!define COLOR_GREEN_LIGHT #2ecc71
+!define COLOR_TURQUOISE #16a085
+!define COLOR_TURQUOISE_LIGHT #1abc9c
+!define COLOR_BLUE #2980b9
+!define COLOR_BLUE_LIGHT #3498db
+
+!define COLOR_VIOLET #8e44ad
+!define COLOR_VIOLET_LIGHT #9b59b6
 
 ' ----------------------------------------------------
 ' Document

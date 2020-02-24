@@ -1,7 +1,16 @@
 @startuml C4-Component
 
-!include style.puml
-!include common.puml
+!include "https://github.com/N0N4M3pl/plantuml-C4/master/src/style.puml"
+!include "https://github.com/N0N4M3pl/plantuml-C4/master/src/common.puml"
+
+' ----------------------------------------------------
+' Document
+' ----------------------------------------------------
+
+!definelong Header_Component(text)
+left header Component View
+title text
+!enddefinelong
 
 ' ----------------------------------------------------
 ' Component
@@ -18,7 +27,7 @@ skinparam rectangle<<boundary container>> {
     Shadowing false
 }
 
-!define Component(alias, label, technology, description) component "==label\n [technology]\n //description//" <<component>> as alias
+!define Component(alias, label, technology=" ", description=" ") component "==label\n [technology]\n //description//" <<component>> as alias
 skinparam component<<component>> {
     StereotypeFontColor FONT_COLOR
     FontColor FONT_COLOR
@@ -27,7 +36,7 @@ skinparam component<<component>> {
     Shadowing false
 }
 
-!define Component_Database(alias, label, technology, description) database "==label\n [technology]\n //description//" <<component database>> as alias
+!define Component_Database(alias, label, technology=" ", description=" ") database "==label\n [technology]\n //description//" <<component database>> as alias
 skinparam database<<component database>> {
     StereotypeFontColor FONT_COLOR
     FontColor FONT_COLOR
@@ -36,7 +45,7 @@ skinparam database<<component database>> {
     Shadowing false
 }
 
-!define Component_Storage(alias, label, technology, description) stack "==label\n [technology]\n //description//" <<component storage>> as alias
+!define Component_Storage(alias, label, technology=" ", description=" ") stack "==label\n [technology]\n //description//" <<component storage>> as alias
 skinparam stack<<component storage>> {
     StereotypeFontColor FONT_COLOR
     FontColor FONT_COLOR
