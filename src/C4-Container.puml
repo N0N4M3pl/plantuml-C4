@@ -38,7 +38,7 @@ skinparam package<<system package>> {
     Shadowing false
 }
 
-!define Container(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<container>> as alias
+!define Container(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<container>> as alias
 skinparam rectangle<<container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -47,7 +47,7 @@ skinparam rectangle<<container>> {
     Shadowing false
 }
 
-!define Container_Script(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<script container>> as alias
+!define Container_Script(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<script container>> as alias
 skinparam rectangle<<script container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -56,7 +56,7 @@ skinparam rectangle<<script container>> {
     Shadowing false
 }
 
-!define Container_MicroService(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<microservice container>> as alias
+!define Container_MicroService(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<microservice container>> as alias
 skinparam rectangle<<microservice container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -65,7 +65,7 @@ skinparam rectangle<<microservice container>> {
     Shadowing false
 }
 
-!define Container_Service(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<service container>> as alias
+!define Container_Service(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<service container>> as alias
 skinparam rectangle<<service container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -74,7 +74,7 @@ skinparam rectangle<<service container>> {
     Shadowing false
 }
 
-!define Container_PubSub(alias, label, description=" ", technology="") queue "==label\n\n //description//\n ""technology"" " <<pubsub container>> as alias
+!define Container_PubSub(alias, label, description=" ", technology="") queue "==label\n //description//\n ""technology"" " <<pubsub container>> as alias
 skinparam queue<<pubsub container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -83,7 +83,7 @@ skinparam queue<<pubsub container>> {
     Shadowing false
 }
 
-!define Container_Database(alias, label, description=" ", technology="") database "==label\n\n //description//\n ""technology"" " <<database container>> as alias
+!define Container_Database(alias, label, description=" ", technology="") database "==label\n //description//\n ""technology"" " <<database container>> as alias
 skinparam database<<database container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -92,7 +92,7 @@ skinparam database<<database container>> {
     Shadowing false
 }
 
-!define Container_Storage(alias, label, description=" ", technology="") stack "==label\n\n //description//\n ""technology"" " <<storage container>> as alias
+!define Container_Storage(alias, label, description=" ", technology="") stack "==label\n //description//\n ""technology"" " <<storage container>> as alias
 skinparam stack<<storage container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -101,7 +101,7 @@ skinparam stack<<storage container>> {
     Shadowing false
 }
 
-!define Container_Config(alias, label, description=" ", technology="") file "==label\n\n //description//\n ""technology"" " <<config container>> as alias
+!define Container_Config(alias, label, description=" ", technology="") file "==label\n //description//\n ""technology"" " <<config container>> as alias
 skinparam file<<config container>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -110,7 +110,7 @@ skinparam file<<config container>> {
     Shadowing false
 }
 
-!define Application_WebServer(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<webserver application>> as alias
+!define Application_WebServer(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<webserver application>> as alias
 skinparam rectangle<<webserver application>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -119,7 +119,7 @@ skinparam rectangle<<webserver application>> {
     Shadowing false
 }
 
-!define Application_Web(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<web application>> as alias
+!define Application_Web(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<web application>> as alias
 skinparam rectangle<<web application>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -128,7 +128,7 @@ skinparam rectangle<<web application>> {
     Shadowing false
 }
 
-!define Application_Desktop(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<desktop application>> as alias
+!define Application_Desktop(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<desktop application>> as alias
 skinparam rectangle<<desktop application>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -137,7 +137,7 @@ skinparam rectangle<<desktop application>> {
     Shadowing false
 }
 
-!define Application_Mobile(alias, label, description=" ", technology="") rectangle "==label\n\n //description//\n ""technology"" " <<mobile application>> as alias
+!define Application_Mobile(alias, label, description=" ", technology="") rectangle "==label\n //description//\n ""technology"" " <<mobile application>> as alias
 skinparam rectangle<<mobile application>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
