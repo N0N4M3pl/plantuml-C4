@@ -3,7 +3,7 @@
 !include ../src/C4-Component.puml
 !include ../src/C4-Container.puml
 
-Header_Component("Component View Example", "[containerView.svg]")
+Header_Component("Component View Example", "containerView.svg")
 LAYOUT_TOP_DOWN
 
 ' ----------------------------------------------------

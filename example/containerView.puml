@@ -3,7 +3,7 @@
 !include ../src/C4-Container.puml
 !include ../src/C4-Context.puml
 
-Header_Container("Container View Example", "[contextView.svg]")
+Header_Container("Container View Example", "contextView.svg")
 LAYOUT_TOP_DOWN
 
 ' ----------------------------------------------------
