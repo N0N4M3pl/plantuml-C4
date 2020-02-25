@@ -18,7 +18,7 @@ title text
 ' Context
 ' ----------------------------------------------------
 
-!define System(alias, label, description=" ") node "==label\n //description//" <<system>> as alias
+!define System(alias, label, description=" ", link="") node "==label\n //description//" <<system>> as alias link
 skinparam node<<system>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -26,7 +26,7 @@ skinparam node<<system>> {
     BorderColor COLOR_SYSTEM_BD
 }
 
-!define System_External(alias, label, description=" ") node "==label\n //description//" <<external system>> as alias
+!define System_External(alias, label, description=" ", link="") node "==label\n //description//" <<external system>> as alias link
 skinparam node<<external system>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
