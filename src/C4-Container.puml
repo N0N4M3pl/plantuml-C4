@@ -9,16 +9,16 @@
 ' Document
 ' ----------------------------------------------------
 
-!definelong Header_Container(text)
+!definelong Header_Container(text, link)
 left header Container View
-title text
+title [[link text]]
 !enddefinelong
 
 ' ----------------------------------------------------
 ' Container
 ' ----------------------------------------------------
 
-!define System_Boundary(alias, label, link="") rectangle "==label" <<system boundary>> as alias link
+!define System_Boundary(alias, label) rectangle "==label" <<system boundary>> as alias
 skinparam rectangle<<system boundary>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
