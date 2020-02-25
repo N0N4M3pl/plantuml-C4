@@ -35,7 +35,7 @@ Remote file:
 - System
 - System_External
 
-![Context example](/../master/example/contextView.png?raw=true)
+![Context example](/../master/example/diagrams/contextView.png?raw=true)
 
 ### 2 - Container
 
@@ -55,7 +55,7 @@ Remote file:
 - Application_Desktop
 - Application_Mobile
 
-![Container example](/../master/example/containerView.png?raw=true)
+![Container example](/../master/example/diagrams/containerView.png?raw=true)
 
 ### 3 - Component
 
@@ -68,7 +68,7 @@ Remote file:
 - Component_Storage
 - Component_Config
 
-![Component example](/../master/example/componentView.png?raw=true)
+![Component example](/../master/example/diagrams/componentView.png?raw=true)
 
 ### 4 - Code
 

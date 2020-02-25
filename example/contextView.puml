@@ -1,7 +1,6 @@
 @startuml contextView
 
 !include ../src/C4-Context.puml
-!include ../src/common.puml
 
 Header_Context("Context View Example")
 LAYOUT_TOP_DOWN
@@ -12,7 +11,7 @@ LAYOUT_TOP_DOWN
 
 Person(personA, "Person A", "Description")
 
-System(systemA, "System A", "Description")
+System(systemA, "System A", "Description", "[[containerView.svg]]")
 System(systemB, "System B")
 System_External(systemExt, "System External")
 
