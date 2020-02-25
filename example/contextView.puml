@@ -1,6 +1,7 @@
 @startuml contextView
 
 !include ../src/C4-Context.puml
+!include ../src/common.puml
 
 Header_Context("Context View Example")
 LAYOUT_TOP_DOWN
@@ -24,6 +25,8 @@ Relation(systemA, systemExt, "-DOWN->")
 Relation(systemB, systemExt, "-DOWN->")
 
 Relation(personA, systemA, "-RIGHT->")
+
+Note(systemExt, "My special note\nmessage", "left")
 
 ' ----------------------------------------------------
 ' ----------------------------------------------------

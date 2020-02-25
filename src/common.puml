@@ -16,6 +16,13 @@ title text
 right footer %date()
 !enddefinelong
 
+!define Note(alias, text, side="right") note side of alias : text
+skinparam Note {
+    FontColor COLOR_GRAY_4
+    BackgroundColor white
+    BorderColor COLOR_GRAY_2
+}
+
 ' ----------------------------------------------------
 ' Common
 ' ----------------------------------------------------
@@ -29,7 +36,7 @@ skinparam actor<<person>> {
     Shadowing false
 }
 
-!define Relation(alias1, alias2, direction="--", label="") alias1 direction alias2 : "label"
+!define Relation(fromAlias, toAlias, direction="--", label="") fromAlias direction toAlias : "label"
 skinparam Arrow {
     FontColor COLOR_FONT_DARK
     Color COLOR_RELATION
