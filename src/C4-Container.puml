@@ -18,7 +18,7 @@ title text
 ' Container
 ' ----------------------------------------------------
 
-!define System_Boundary(alias, label) rectangle "==label" <<system boundary>> as alias
+!define System_Boundary(alias, label, link="") rectangle "==label" <<system boundary>> as alias link
 skinparam rectangle<<system boundary>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
