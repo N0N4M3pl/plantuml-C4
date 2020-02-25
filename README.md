@@ -78,9 +78,6 @@ Remote file:
 
 - Header
 - Footer
-- Note_Left
-- Note_Right
-- Note_Top
-- Note_Bottom
+- Note
 - Person
 - Relation
