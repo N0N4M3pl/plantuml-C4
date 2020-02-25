@@ -7,11 +7,6 @@
 ' Document
 ' ----------------------------------------------------
 
-!definelong Header(text)
-left header Custom View
-title text
-!enddefinelong
-
 !definelong Footer()
 right footer %date()
 !enddefinelong
