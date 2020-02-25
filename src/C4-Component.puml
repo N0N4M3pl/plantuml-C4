@@ -38,7 +38,7 @@ skinparam package<<container package>> {
     Shadowing false
 }
 
-!define Component(alias, label, description=" ", technology="") component "==label\n //description//\n ""technology"" " <<component>> as alias
+!define Component(alias, label, description=" ", technology="", link="") component "==label\n //description//\n ""technology"" " <<component>> as alias link
 skinparam component<<component>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -47,7 +47,7 @@ skinparam component<<component>> {
     Shadowing false
 }
 
-!define Component_PubSub(alias, label, description=" ", technology="") queue "==label\n //description//\n ""technology"" " <<pubsub component>> as alias
+!define Component_PubSub(alias, label, description=" ", technology="", link="") queue "==label\n //description//\n ""technology"" " <<pubsub component>> as alias link
 skinparam queue<<pubsub component>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -56,7 +56,7 @@ skinparam queue<<pubsub component>> {
     Shadowing false
 }
 
-!define Component_Database(alias, label, description=" ", technology="") database "==label\n //description//\n ""technology"" " <<database component>> as alias
+!define Component_Database(alias, label, description=" ", technology="", link="") database "==label\n //description//\n ""technology"" " <<database component>> as alias link
 skinparam database<<database component>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -65,7 +65,7 @@ skinparam database<<database component>> {
     Shadowing false
 }
 
-!define Component_Storage(alias, label, description=" ", technology="") stack "==label\n //description//\n ""technology"" " <<storage component>> as alias
+!define Component_Storage(alias, label, description=" ", technology="", link="") stack "==label\n //description//\n ""technology"" " <<storage component>> as alias link
 skinparam stack<<storage component>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
@@ -74,7 +74,7 @@ skinparam stack<<storage component>> {
     Shadowing false
 }
 
-!define Component_Config(alias, label, description=" ", technology="") file "==label\n //description//\n ""technology"" " <<config component>> as alias
+!define Component_Config(alias, label, description=" ", technology="", link="") file "==label\n //description//\n ""technology"" " <<config component>> as alias link
 skinparam file<<config component>> {
     StereotypeFontColor COLOR_FONT_DARK
     FontColor COLOR_FONT_DARK
