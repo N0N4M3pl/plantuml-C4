@@ -6,7 +6,7 @@
 
 [plantuml-C4](https://github.com/N0N4M3pl/plantuml-C4) is library for creating C4 diagrams.
 
-![Main example](/../master/example/contextView.png?raw=true)
+![Main example](/../master/example/diagrams/containerView.png?raw=true)
 
 ## Getting Started
 
