@@ -8,8 +8,7 @@
 ' ----------------------------------------------------
 
 !definelong Header(text)
-left header Custom View
-title text
+title Custom View: text
 !enddefinelong
 
 !definelong Footer()
