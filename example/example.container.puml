@@ -3,7 +3,7 @@
 !include ../src/C4-Container.puml
 !include ../src/C4-Context.puml
 
-Header_Container("Example", "contextView.svg")
+Header_Container("Example", "example.context.svg")
 LAYOUT_TOP_DOWN
 
 ' ----------------------------------------------------
@@ -11,7 +11,7 @@ LAYOUT_TOP_DOWN
 ' ----------------------------------------------------
 
 System_Boundary(Boundary_systemA, "System A") {
-    Container(containerA, "Container", "Description", "API", "[[componentView.svg]]")
+    Container(containerA, "Container", "Description", "API", "[[example.component.svg]]")
     Container_Script(containerF, "Script", "Description")
     Container_MicroService(containerJ, "Micro Service")
     Container_Service(containerB, "Service", "Description", "API")

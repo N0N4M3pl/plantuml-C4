@@ -6,7 +6,7 @@
 
 [plantuml-C4](https://github.com/N0N4M3pl/plantuml-C4) is library for creating C4 diagrams.
 
-![Main example](/../master/example/diagrams/containerView.png?raw=true)
+![Main example](/../master/example/diagrams/example.container.png?raw=true)
 
 ## Getting Started
 
@@ -31,44 +31,46 @@ Remote file:
 
 ### 1 - Context
 
-- Header_Context
-- System
-- System_External
+- Header_Context(text)
+- Footer_Context()
+- System(alias, label, description=" ", link="")
+- System_External(alias, label, description=" ", link="")
 
-![Context example](/../master/example/diagrams/contextView.png?raw=true)
+![Context example](/../master/example/diagrams/example.context.png?raw=true)
 
 ### 2 - Container
 
-- Header_Container
-- System_Boundary
-- System_Package
-- Container
-- Container_Script
-- Container_Service
-- Container_MicroService
-- Container_PubSub
-- Container_Database
-- Container_Storage
-- Container_Config
-- Application_WebServer
-- Application_Web
-- Application_Desktop
-- Application_Mobile
+- Header_Container(text, link)
+- Footer_Container()
+- System_Boundary(alias, label)
+- System_Package(alias, label)
+- Container(alias, label, description=" ", technology="", link="")
+- Container_Script(alias, label, description=" ", technology="", link="")
+- Container_Service(alias, label, description=" ", technology="", link="")
+- Container_MicroService(alias, label, description=" ", technology="", link="")
+- Container_PubSub(alias, label, description=" ", technology="", link="")
+- Container_Database(alias, label, description=" ", technology="", link="")
+- Container_Storage(alias, label, description=" ", technology="", link="")
+- Container_Config(alias, label, description=" ", technology="", link="")
+- Application_WebServer(alias, label, description=" ", technology="", link="")
+- Application_Web(alias, label, description=" ", technology="", link="")
+- Application_Desktop(alias, label, description=" ", technology="", link="")
+- Application_Mobile(alias, label, description=" ", technology="", link="")
 
-![Container example](/../master/example/diagrams/containerView.png?raw=true)
+![Container example](/../master/example/diagrams/example.container.png?raw=true)
 
 ### 3 - Component
 
-- Header_Component
-- Container_Boundary
-- Container_Package
-- Component
-- Component_PubSub
-- Component_Database
-- Component_Storage
-- Component_Config
+- Header_Component(text, link)
+- Container_Boundary(alias, label)
+- Container_Package(alias, label)
+- Component(alias, label, description=" ", technology="", link="")
+- Component_PubSub(alias, label, description=" ", technology="", link="")
+- Component_Database(alias, label, description=" ", technology="", link="")
+- Component_Storage(alias, label, description=" ", technology="", link="")
+- Component_Config(alias, label, description=" ", technology="", link="")
 
-![Component example](/../master/example/diagrams/componentView.png?raw=true)
+![Component example](/../master/example/diagrams/example.component.png?raw=true)
 
 ### 4 - Code
 
@@ -76,8 +78,8 @@ Remote file:
 
 ### Common - for all views
 
-- Header
-- Footer
-- Note
-- Person
-- Relation
+- Header(text)
+- Footer()
+- Note(alias, text, side="right")
+- Person(alias, label, description=" ")
+- Relation(fromAlias, toAlias, direction="--", label="")
