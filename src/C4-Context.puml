@@ -10,8 +10,7 @@
 ' ----------------------------------------------------
 
 !definelong Header_Context(text)
-left header Context View
-title text
+title Context View: text
 !enddefinelong
 
 ' ----------------------------------------------------
