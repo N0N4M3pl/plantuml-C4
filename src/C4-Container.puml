@@ -11,7 +11,12 @@
 
 !definelong Header_Container(text, link)
 left header [[link Back to Context View]]
-title Container View: text
+title text
+!enddefinelong
+
+!definelong Footer_Container()
+caption Container View
+Footer()
 !enddefinelong
 
 ' ----------------------------------------------------

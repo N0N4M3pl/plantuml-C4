@@ -1,8 +1,8 @@
-@startuml contextView
+@startuml example.context
 
 !include ../src/C4-Context.puml
 
-Header_Context("Context View Example")
+Header_Context("Example")
 LAYOUT_TOP_DOWN
 
 ' ----------------------------------------------------
@@ -30,6 +30,6 @@ Note(systemExt, "My special note\nmessage", "left")
 ' ----------------------------------------------------
 ' ----------------------------------------------------
 
-Footer()
+Footer_Context()
 
 @enduml

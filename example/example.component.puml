@@ -1,9 +1,9 @@
-@startuml componentView
+@startuml example.component
 
 !include ../src/C4-Component.puml
 !include ../src/C4-Container.puml
 
-Header_Component("Component View Example", "containerView.svg")
+Header_Component("Example", "containerView.svg")
 LAYOUT_TOP_DOWN
 
 ' ----------------------------------------------------
@@ -11,7 +11,7 @@ LAYOUT_TOP_DOWN
 ' ----------------------------------------------------
 
 Container_Boundary(containerA, "Container A") {
-    Component(componentA, "Component A", "Description", "API")
+    Component(componentA, "Component A", "Description", "API") COLOR_RED_1
     Component(componentB, "Component B", "Description", "API")
     Component(componentC, "Component C", "Description", "API")
     Component_Database(componentD, "Component D", "Description", "API")
@@ -35,6 +35,6 @@ Relation(componentB, componentC, "==")
 ' ----------------------------------------------------
 ' ----------------------------------------------------
 
-Footer()
+Footer_Component()
 
 @enduml

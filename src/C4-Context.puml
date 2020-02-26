@@ -10,7 +10,12 @@
 ' ----------------------------------------------------
 
 !definelong Header_Context(text)
-title Context View: text
+title text
+!enddefinelong
+
+!definelong Footer_Context()
+caption Context View
+Footer()
 !enddefinelong
 
 ' ----------------------------------------------------

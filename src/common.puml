@@ -12,7 +12,7 @@ title Custom View: text
 !enddefinelong
 
 !definelong Footer()
-right footer %date()
+left footer %filename() | %date()
 !enddefinelong
 
 !define Note(alias, text, side="right") note side of alias : text

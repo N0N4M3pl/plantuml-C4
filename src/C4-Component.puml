@@ -11,7 +11,12 @@
 
 !definelong Header_Component(text, link)
 left header [[link Back to Container View]]
-title Component View: text
+title text
+!enddefinelong
+
+!definelong Footer_Component()
+caption Component View
+Footer()
 !enddefinelong
 
 ' ----------------------------------------------------
