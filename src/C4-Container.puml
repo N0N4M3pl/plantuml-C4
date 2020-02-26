@@ -10,8 +10,8 @@
 ' ----------------------------------------------------
 
 !definelong Header_Container(text, link)
-left header Container View
-title [[link text]]
+left header [[link Back to Context View]]
+title Container View: text
 !enddefinelong
 
 ' ----------------------------------------------------
