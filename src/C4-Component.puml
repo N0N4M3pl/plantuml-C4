@@ -10,8 +10,8 @@
 ' ----------------------------------------------------
 
 !definelong Header_Component(text, link)
-left header Component View
-title [[link text]]
+left header [[link Back to Container View]]
+title Component View: text
 !enddefinelong
 
 ' ----------------------------------------------------
