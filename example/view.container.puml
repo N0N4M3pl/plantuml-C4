@@ -1,0 +1,56 @@
+@startuml view.container
+
+!include ../src/C4-Container.puml
+
+Header_Container("View Example", "example.context.svg")
+LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
+System_Boundary(system, "Awsome software") {
+    Container(container, "Simple container", "Server", "API", "[[view.component.svg]]")
+
+    Container_Database(database, "Main database")
+    Container_PubSub(pubSub, "Fastest PubSub")
+    Container_Storage(storage, "File System")
+    Container_Config(config, "Init configuration")
+
+    System_Package(package, "Services") {
+        Container_Script(script, "Bash script", "Small script")
+        Container_MicroService(microService, "Small service")
+        Container_Service(service, "Large service")
+    }
+
+    Application_WebServer(webServer, "CMS")
+    Application_Web(web, "Web application")
+    Application_Desktop(desktop, "Desktop application")
+    Application_Mobile(mobile, "Mobile application")
+}
+
+' ----------------------------------------------------
+' Relations
+' ----------------------------------------------------
+
+Relation(container, database, "-DOWN->")
+Relation(container, pubSub, ".DOWN.")
+Relation(container, storage, "-DOWN->")
+Relation(container, config, "-LEFT->")
+
+Relation(webServer, container, "<-LEFT->")
+Relation(webServer, database, "-DOWN->")
+Relation(web, container, "-DOWN->")
+Relation(desktop, container, "-DOWN->")
+Relation(mobile, container, "-DOWN->")
+
+Relation(service, microService, "-DOWN->")
+Relation(service, script, "-DOWN->")
+Relation(service, container, "<=UP=>")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer_Container()
+
+@enduml

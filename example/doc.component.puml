@@ -1,0 +1,36 @@
+@startuml doc.component
+
+!include ../src/C4-Component.puml
+
+Header_Component("Header_Component_text", "Header_Component_link")
+
+LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
+Container_Boundary(Container_Boundary, "label") {
+
+    Container_Package(Container_Package, "label") {
+
+    }
+
+    Component(Component_alias, "label", "description", "technology", "[[link]]")
+
+    Component_Database(Component_Database_alias, "label", "description", "technology", "[[link]]")
+
+    Component_Storage(Component_Storage_alias, "label", "description", "technology", "[[link]]")
+
+    Component_PubSub(Component_PubSub_alias, "label", "description", "technology", "[[link]]")
+
+    Component_Config(Component_Config_alias, "label", "description", "technology", "[[link]]")
+
+}
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer_Component()
+
+@enduml

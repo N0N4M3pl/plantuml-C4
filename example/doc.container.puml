@@ -1,0 +1,49 @@
+@startuml doc.container
+
+!include ../src/C4-Container.puml
+
+Header_Container("Header_Container_text", "link")
+
+LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
+System_Boundary(System_Boundary_alias, "label") {
+
+    System_Package(System_Package_alias, "label") {
+
+    }
+
+    Container(Container_alias, "label", "description", "technology", "[[link]]")
+
+    Container_Database(Container_Database_alias, "label", "description", "technology", "[[link]]")
+
+    Container_PubSub(Container_PubSub_alias, "label", "description", "technology", "[[link]]")
+
+    Container_Storage(Container_Storage_alias, "label", "description", "technology", "[[link]]")
+
+    Container_Config(Container_Config_alias, "label", "description", "technology", "[[link]]")
+
+    Container_Script(Container_Script_alias, "label", "description", "technology", "[[link]]")
+
+    Container_MicroService(Container_MicroService_alias, "label", "description", "technology", "[[link]]")
+
+    Container_Service(Container_Service_alias, "label", "description", "technology", "[[link]]")
+
+    Application_WebServer(Application_WebServer_alias, "label", "description", "technology", "[[link]]")
+
+    Application_Web(Application_Web_alias, "label", "description", "technology", "[[link]]")
+
+    Application_Desktop(Application_Desktop_alias, "label", "description", "technology", "[[link]]")
+
+    Application_Mobile(Application_Mobile_alias, "label", "description", "technology", "[[link]]")
+}
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer_Container()
+
+@enduml

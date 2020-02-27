@@ -1,19 +1,19 @@
-@startuml example.context
+@startuml view.context
 
 !include ../src/C4-Context.puml
 
-Header_Context("Example")
+Header_Context("View Example")
 LAYOUT_TOP_DOWN
 
 ' ----------------------------------------------------
 ' Elements
 ' ----------------------------------------------------
 
-Person(personA, "Person A", "Description")
+Person(person, "User", "Real client")
 
-System(systemA, "System A", "Description", "[[example.container.svg]]")
+System(systemA, "System A", "Awsome software", "[[view.container.svg]]")
 System(systemB, "System B")
-System_External(systemExt, "System External")
+System_External(systemExt, "External system", "Authorization system")
 
 ' ----------------------------------------------------
 ' Relations
@@ -23,9 +23,9 @@ Relation(systemA, systemB, "-RIGHT->", "info")
 Relation(systemA, systemExt, "-DOWN->")
 Relation(systemB, systemExt, "-DOWN->")
 
-Relation(personA, systemA, "-RIGHT->")
+Relation(person, systemA, "-RIGHT->")
 
-Note(systemExt, "My special note\nmessage", "left")
+Note(systemB, "Work in progress", "bottom")
 
 ' ----------------------------------------------------
 ' ----------------------------------------------------

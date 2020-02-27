@@ -1,0 +1,38 @@
+@startuml view.component
+
+!include ../src/C4-Component.puml
+
+Header_Component("View Example", "example.container.svg")
+LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
+Container_Boundary(container, "Simple container") {
+    Component(componentA, "Component A", "Main Module", "Angular.io")
+    Component(componentB, "Component B")
+    Component(componentC, "Component C")
+
+    Container_Package(package, "Other") {
+        Component_Database(database, "DB")
+        Component_Storage(storage, "Local storage")
+        Component_PubSub(pubSub, "Events bus")
+        Component_Config(config, "Configuration")
+    }
+}
+
+' ----------------------------------------------------
+' Relations
+' ----------------------------------------------------
+
+Relation(componentA, componentB, "<-RIGHT-")
+Relation(componentA, componentC, ".DOWN.>")
+Relation(componentB, componentC, "<~UP~>")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer_Component()
+
+@enduml

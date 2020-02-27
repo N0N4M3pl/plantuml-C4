@@ -1,0 +1,29 @@
+@startuml doc.common
+
+!include ../src/common.puml
+
+Header("Header_text")
+
+LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
+Person(Person_alias_1, "label", "description")
+Person(Person_alias_2, "label", "description")
+
+' ----------------------------------------------------
+' Relations
+' ----------------------------------------------------
+
+Relation(Person_alias_1, Person_alias_2, "-RIGHT->", "label")
+
+Note(Person_alias_2, "text", "bottom")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer()
+
+@enduml

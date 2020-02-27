@@ -1,0 +1,22 @@
+@startuml doc.context
+
+!include ../src/C4-Context.puml
+
+Header_Context("Header_Context_text")
+
+LAYOUT_TOP_DOWN
+
+' ----------------------------------------------------
+' Elements
+' ----------------------------------------------------
+
+System(System_alias, "label", "description", "[[link]]")
+
+System_External(System_External_alias, "label", "description", "[[link]]")
+
+' ----------------------------------------------------
+' ----------------------------------------------------
+
+Footer_Context()
+
+@enduml
