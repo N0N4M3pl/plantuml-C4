@@ -8,15 +8,15 @@
 
 ## Examples
 
-### Context
+### 1) Context
 
 ![Context example](/../master/example/diagrams/view.context.png?raw=true)
 
-### Container
+### 2) Container
 
 ![Container example](/../master/example/diagrams/view.container.png?raw=true)
 
-### Component
+### 3) Component
 
 ![Component example](/../master/example/diagrams/view.component.png?raw=true)
 
@@ -31,11 +31,10 @@ Depending on what diagram you build, you need to include specified file:
 If you need, you can use many of them in one file (you can mix them together).
 Its depend what you want to show on diagram.
 
-Local file:
-`!include /src/C4-Context.puml`
+**Example**:
 
-Remote file:
-`!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Context.puml`
+- Local file: `!include /src/C4-Context.puml`
+- Remote file: `!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Context.puml`
 
 ## Elements documentation
 
@@ -53,7 +52,7 @@ Remote file:
 
 ![Common documentation](/../master/example/diagrams/doc.common.png?raw=true)
 
-### 1) Context View
+### Context View
 
 `Header_Context(text)`
 
@@ -65,7 +64,7 @@ Remote file:
 
 ![Context documentation](/../master/example/diagrams/doc.context.png?raw=true)
 
-### 2) Container View
+### Container View
 
 `Header_Container(text, link)`
 
@@ -101,7 +100,7 @@ Remote file:
 
 ![Container documentation](/../master/example/diagrams/doc.container.png?raw=true)
 
-### 3) Component View
+### Component View
 
 `Header_Component(text, link)`
 
@@ -121,7 +120,7 @@ Remote file:
 
 ![Component documentation](/../master/example/diagrams/doc.component.png?raw=true)
 
-### 4) Code View
+### Code View
 
 *not yet supported*
 
