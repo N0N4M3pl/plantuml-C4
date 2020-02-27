@@ -6,7 +6,19 @@
 
 [plantuml-C4](https://github.com/N0N4M3pl/plantuml-C4) is library for creating C4 diagrams.
 
-![Main example](/../master/example/diagrams/view.container.png?raw=true)
+## Examples
+
+### Context
+
+![Context example](/../master/example/diagrams/view.context.png?raw=true)
+
+### Container
+
+![Container example](/../master/example/diagrams/view.container.png?raw=true)
+
+### Component
+
+![Component example](/../master/example/diagrams/view.component.png?raw=true)
 
 ## Getting Started
 
@@ -24,20 +36,6 @@ Local file:
 
 Remote file:
 `!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/C4-Context.puml`
-
-## Examples
-
-### Context
-
-![Context example](/../master/example/diagrams/view.context.png?raw=true)
-
-### Container
-
-![Container example](/../master/example/diagrams/view.container.png?raw=true)
-
-### Component
-
-![Component example](/../master/example/diagrams/view.component.png?raw=true)
 
 ## Elements documentation
 
