@@ -44,9 +44,13 @@ Remote file:
 ### Common - for all views
 
 `Header(text)`
+
 `Footer()`
+
 `Note(alias, text, side="right")`
+
 `Person(alias, label, description=" ")`
+
 `Relation(fromAlias, toAlias, direction="--", label="")`
 
 ![Common documentation](/../master/example/diagrams/doc.common.png?raw=true)
@@ -54,8 +58,11 @@ Remote file:
 ### 1) Context View
 
 `Header_Context(text)`
+
 `Footer_Context()`
+
 `System(alias, label, description=" ", link="")`
+
 `System_External(alias, label, description=" ", link="")`
 
 ![Context documentation](/../master/example/diagrams/doc.context.png?raw=true)
@@ -63,20 +70,35 @@ Remote file:
 ### 2) Container View
 
 `Header_Container(text, link)`
+
 `Footer_Container()`
+
 `System_Boundary(alias, label)`
+
 `System_Package(alias, label)`
+
 `Container(alias, label, description=" ", technology="", link="")`
+
 `Container_Script(alias, label, description=" ", technology="", link="")`
+
 `Container_Service(alias, label, description=" ", technology="", link="")`
+
 `Container_MicroService(alias, label, description=" ", technology="", link="")`
+
 `Container_PubSub(alias, label, description=" ", technology="", link="")`
+
 `Container_Database(alias, label, description=" ", technology="", link="")`
+
 `Container_Storage(alias, label, description=" ", technology="", link="")`
+
 `Container_Config(alias, label, description=" ", technology="", link="")`
+
 `Application_WebServer(alias, label, description=" ", technology="", link="")`
+
 `Application_Web(alias, label, description=" ", technology="", link="")`
+
 `Application_Desktop(alias, label, description=" ", technology="", link="")`
+
 `Application_Mobile(alias, label, description=" ", technology="", link="")`
 
 ![Container documentation](/../master/example/diagrams/doc.container.png?raw=true)
@@ -84,12 +106,19 @@ Remote file:
 ### 3) Component View
 
 `Header_Component(text, link)`
+
 `Container_Boundary(alias, label)`
+
 `Container_Package(alias, label)`
+
 `Component(alias, label, description=" ", technology="", link="")`
+
 `Component_PubSub(alias, label, description=" ", technology="", link="")`
+
 `Component_Database(alias, label, description=" ", technology="", link="")`
+
 `Component_Storage(alias, label, description=" ", technology="", link="")`
+
 `Component_Config(alias, label, description=" ", technology="", link="")`
 
 ![Component documentation](/../master/example/diagrams/doc.component.png?raw=true)
@@ -101,7 +130,9 @@ Remote file:
 ### Colors
 
 `System(alias, label) COLOR_RED_1`
+
 `Container(alias, label) COLOR_GREEN_3`
+
 `Component(alias, label) COLOR_TURQUOISE_2`
 
 ![Colors documentation](/../master/example/diagrams/doc.color.png?raw=true)

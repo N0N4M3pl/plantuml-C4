@@ -1,4 +1,4 @@
-@startuml doc.component
+@startuml doc.color
 
 !include ../src/common.puml
 
