@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="652px" preserveAspectRatio="none" style="width:773px;height:652px;" version="1.1" viewBox="0 0 773 652" width="773px" zoomAndPan="magnify"><defs/><g><a href="example.container.svg" target="_top" title="example.container.svg" xlink:actuate="onRequest" xlink:href="example.container.svg" xlink:show="new" xlink:title="example.container.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="125" x="0" y="9.2822">Back to Container View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="129" x="315.5" y="28.3486">View Example</text><!--MD5=[ce5ccd5b359d4259c2ab78015c688698]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="652px" preserveAspectRatio="none" style="width:773px;height:652px;" version="1.1" viewBox="0 0 773 652" width="773px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #FFB99C !important;}]]></style></defs><g><a href="example.container.svg" target="_top" title="example.container.svg" xlink:actuate="onRequest" xlink:href="example.container.svg" xlink:show="new" xlink:title="example.container.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="125" x="0" y="9.2822">Back to Container View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="129" x="315.5" y="28.3486">View Example</text><!--MD5=[ce5ccd5b359d4259c2ab78015c688698]
 cluster container--><rect fill="#ECF0F1" height="573.5" style="stroke: #65BDED; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="760" x="7" y="39.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="158" x="308" y="54.5889">«container boundary»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="154" x="310" y="72.7422">Simple container</text><!--MD5=[3c22739714270d73bb1ebb97dee24d10]
 cluster package--><polygon fill="#ECF0F1" points="279,100.5938,338,100.5938,345,125.2188,743,125.2188,743,435.0938,279,435.0938,279,100.5938" style="stroke: #65BDED; stroke-width: 1.5;"/><line style="stroke: #65BDED; stroke-width: 1.5;" x1="279" x2="345" y1="125.2188" y2="125.2188"/><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="283" y="117.4453">Other</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="151" x="439.5" y="140.2139">«container package»</text><!--MD5=[0b98efc39f507a75ec59d10b029666e0]
 entity componentA--><rect fill="#ECF0F1" height="98.0187" style="stroke: #3498DB; stroke-width: 1.5;" width="164" x="59" y="153.0938"/><rect fill="#ECF0F1" height="10" style="stroke: #3498DB; stroke-width: 1.5;" width="15" x="203" y="158.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="201" y="160.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="201" y="164.0938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="86.5" y="186.0889">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="74" y="204.2422">Component A</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="93" y="221.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="90" x="93" y="221.0107">Main Module</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="96" y="237.8107"/><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="96" y="237.2764">Angular.io</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="180" y="237.8107"/><!--MD5=[a6d5fe67655e4707802be9c6fdfb0065]
@@ -13,7 +13,7 @@ link componentA to componentC--><path d="M152.249,251.1818 C157.34,272.9478 163.
 link componentC to componentB--><path d="M163.303,429.1858 C156.411,449.8608 148.53,473.5028 141.644,494.1627 " fill="none" id="componentC-componentB" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 1.0,3.0;"/><polygon fill="#566775" points="140.008,499.0708,146.6494,491.7981,141.5896,494.3275,139.0602,489.2676,140.008,499.0708" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="164.971,424.1817,158.3302,431.455,163.3899,428.9252,165.9197,433.9848,164.971,424.1817" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="160" y="466.2324"/><!--MD5=[2075ae475e383ad67de2f89b01e97fb5]
 link database to storage--><!--MD5=[ea208994d3e5b15502b5d400b6214531]
 link database to pubSub--><!--MD5=[02f5dc1738747ba7de3706a831198261]
-link pubSub to config--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="318" y="631.0889">Component View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="171" x="0" y="643.6729">| Thu Oct 29 08:14:39 UTC 2020</text><!--MD5=[c75567e8bf1b034212a32bad0e1186e2]
+link pubSub to config--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="318" y="631.0889">Component View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="169" x="0" y="643.6729">| Thu Oct 29 08:20:21 UTC 2020</text><!--MD5=[c26a228487ba971da16a746fb903af43]
 @startuml
 ' !include style.puml
 ' !include common.puml
@@ -148,6 +148,7 @@ Footer_Component()
 skinparam defaultTextAlignment center
 skinparam wrapWidth 200
 skinparam maxMessageSize 150
+skinparam PathHoverColor COLOR_RED_1
 
 
 
@@ -170,6 +171,7 @@ skinparam maxMessageSize 150
 skinparam defaultTextAlignment center
 skinparam wrapWidth 200
 skinparam maxMessageSize 150
+skinparam PathHoverColor #ffb99c
 
 
 
@@ -208,6 +210,7 @@ skinparam Arrow {
     FontColor #2c3e50
     Color #566775
     FontSize 12
+    PathHoverColor #ffb99c
 }
 
 
@@ -301,7 +304,7 @@ componentB <~UP~> componentC : ""
 
 
 caption Component View
-left footer  | Thu Oct 29 08:14:39 UTC 2020
+left footer  | Thu Oct 29 08:20:21 UTC 2020
 @enduml
 
 PlantUML version 1.2020.20beta7(Unknown compile time)

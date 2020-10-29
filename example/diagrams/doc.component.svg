@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="393px" preserveAspectRatio="none" style="width:869px;height:393px;" version="1.1" viewBox="0 0 869 393" width="869px" zoomAndPan="magnify"><defs/><g><a href="Header_Component_link" target="_top" title="Header_Component_link" xlink:actuate="onRequest" xlink:href="Header_Component_link" xlink:show="new" xlink:title="Header_Component_link" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="125" x="0" y="9.2822">Back to Container View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="230" x="313" y="28.3486">Header_Component_text</text><!--MD5=[b23fe54ba1a6bfdb7a189050a3c5c627]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="393px" preserveAspectRatio="none" style="width:869px;height:393px;" version="1.1" viewBox="0 0 869 393" width="869px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[path:hover { stroke: #FFB99C !important;}]]></style></defs><g><a href="Header_Component_link" target="_top" title="Header_Component_link" xlink:actuate="onRequest" xlink:href="Header_Component_link" xlink:show="new" xlink:title="Header_Component_link" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="125" x="0" y="9.2822">Back to Container View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="230" x="313" y="28.3486">Header_Component_text</text><!--MD5=[b23fe54ba1a6bfdb7a189050a3c5c627]
 cluster Container_Boundary--><rect fill="#ECF0F1" height="315" style="stroke: #65BDED; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="856" x="7" y="39.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="158" x="356" y="54.5889">«container boundary»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="413.5" y="72.7422">label</text><!--MD5=[3d9bc26fa5e3ce96dcc1848584e78e03]
 entity Component_alias--><a href="link" target="_top" title="link" xlink:actuate="onRequest" xlink:href="link" xlink:show="new" xlink:title="link" xlink:type="simple"><rect fill="#ECF0F1" height="98.0187" style="stroke: #3498DB; stroke-width: 1.5;" width="139" x="241.5" y="92.5938"/><rect fill="#ECF0F1" height="10" style="stroke: #3498DB; stroke-width: 1.5;" width="15" x="360.5" y="97.5938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="358.5" y="99.5938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="358.5" y="103.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="256.5" y="125.5889">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="284.5" y="143.7422">label</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="268.5" y="160.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="268.5" y="160.5107">description</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="266" y="177.3107"/><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="266" y="176.7764">technology</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="350" y="177.3107"/></a><!--MD5=[21ac7ca580c83c2999361d615df7a76e]
 entity Component_Database_alias--><a href="link" target="_top" title="link" xlink:actuate="onRequest" xlink:href="link" xlink:show="new" xlink:title="link" xlink:type="simple"><path d="M415.5,103.0938 C415.5,93.0938 510,93.0938 510,93.0938 C510,93.0938 604.5,93.0938 604.5,103.0938 L604.5,180.1124 C604.5,190.1124 510,190.1124 510,190.1124 C510,190.1124 415.5,190.1124 415.5,180.1124 L415.5,103.0938 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M415.5,103.0938 C415.5,113.0938 510,113.0938 510,113.0938 C510,113.0938 604.5,113.0938 604.5,103.0938 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="169" x="425.5" y="130.0889">«database component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="488.5" y="148.2422">label</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="472.5" y="165.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="472.5" y="165.0107">description</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="470" y="181.8107"/><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="470" y="181.2764">technology</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="554" y="181.8107"/></a><!--MD5=[e58d708651b1349f21eb71aebe4b9b81]
@@ -9,7 +9,7 @@ entity Container_Package--><polygon fill="#ECF0F1" points="23.5,104.5938,182.5,1
 link Component_alias to Component_Database_alias--><!--MD5=[c09173180bb64e12f11083ff74929b46]
 link Component_Database_alias to Component_Storage_alias--><!--MD5=[a9bdc9ec09008cc3656ea6c74fe9a027]
 link Component_alias to Component_PubSub_alias--><!--MD5=[df8d2fada61c33353377bbc2bc03b46f]
-link Component_PubSub_alias to Component_Config_alias--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="366" y="372.5889">Component View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="171" x="0" y="385.1729">| Thu Oct 29 08:14:39 UTC 2020</text><!--MD5=[81f90e8870df1fff04e06fd44d2d3bc9]
+link Component_PubSub_alias to Component_Config_alias--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="366" y="372.5889">Component View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="169" x="0" y="385.1729">| Thu Oct 29 08:20:21 UTC 2020</text><!--MD5=[01444ae97be08a98ffd781f128223a57]
 @startuml
 ' !include style.puml
 ' !include common.puml
@@ -142,6 +142,7 @@ Footer_Component()
 skinparam defaultTextAlignment center
 skinparam wrapWidth 200
 skinparam maxMessageSize 150
+skinparam PathHoverColor COLOR_RED_1
 
 
 
@@ -164,6 +165,7 @@ skinparam maxMessageSize 150
 skinparam defaultTextAlignment center
 skinparam wrapWidth 200
 skinparam maxMessageSize 150
+skinparam PathHoverColor #ffb99c
 
 
 
@@ -202,6 +204,7 @@ skinparam Arrow {
     FontColor #2c3e50
     Color #566775
     FontSize 12
+    PathHoverColor #ffb99c
 }
 
 
@@ -296,7 +299,7 @@ rectangle "==label" <<container boundary>> as Container_Boundary {
 
 
 caption Component View
-left footer  | Thu Oct 29 08:14:39 UTC 2020
+left footer  | Thu Oct 29 08:20:21 UTC 2020
 @enduml
 
 PlantUML version 1.2020.20beta7(Unknown compile time)
