@@ -6,6 +6,7 @@
 
 !define LAYOUT_TOP_DOWN top to bottom direction
 !define LAYOUT_LEFT_RIGHT left to right direction
+!define LINE_STRAIGHT skinparam Linetype ortho
 
 skinparam defaultTextAlignment center
 skinparam wrapWidth 200
