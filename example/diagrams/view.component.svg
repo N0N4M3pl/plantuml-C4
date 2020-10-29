@@ -1,7 +1,147 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="706px" preserveAspectRatio="none" style="width:715px;height:706px;" version="1.1" viewBox="0 0 715 706" width="715px" zoomAndPan="magnify"><defs/><g><a href="example.container.svg" target="_top" xlink:actuate="onRequest" xlink:show="new" xlink:title="example.container.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="110" x="0" y="10.3809">Back to Container View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="111" x="313.5" y="31.2637">View Example</text><!--cluster container--><rect fill="#ECF0F1" height="580" style="stroke: #65BDED; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="682" x="22" y="59.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="139" x="293.5" y="75.752">«container boundary»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="299" y="95.4375">Simple container</text><!--cluster package--><polygon fill="#ECF0F1" points="255,123.2188,303,123.2188,310,149.3438,680,149.3438,680,467.2188,255,467.2188,255,123.2188" style="stroke: #65BDED; stroke-width: 1.5;"/><line style="stroke: #65BDED; stroke-width: 1.5;" x1="255" x2="310" y1="149.3438" y2="149.3438"/><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="42" x="259" y="141.8281">Other</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="134" x="404.5" y="165.877">«container package»</text><!--entity componentA--><rect fill="#ECF0F1" height="93.623" style="stroke: #3498DB; stroke-width: 1.5;" width="125" x="60.5" y="183.2188"/><rect fill="#ECF0F1" height="5" style="stroke: #3498DB; stroke-width: 1.5;" width="10" x="55.5" y="188.2188"/><rect fill="#ECF0F1" height="5" style="stroke: #3498DB; stroke-width: 1.5;" width="10" x="55.5" y="266.8418"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86" x="80" y="207.752">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="70.5" y="227.4375">Component A</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="82" x="82" y="245.4863">Main Module</text><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="83" y="262.6377">Angular.io</text><!--entity componentB--><rect fill="#ECF0F1" height="92.9531" style="stroke: #3498DB; stroke-width: 1.5;" width="126" x="60" y="530.2188"/><rect fill="#ECF0F1" height="5" style="stroke: #3498DB; stroke-width: 1.5;" width="10" x="55" y="535.2188"/><rect fill="#ECF0F1" height="5" style="stroke: #3498DB; stroke-width: 1.5;" width="10" x="55" y="613.1719"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86" x="80" y="554.752">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="70" y="574.4375">Component B</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="125" y="592.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="125" y="610.0957"/><!--entity componentC--><rect fill="#ECF0F1" height="92.9531" style="stroke: #3498DB; stroke-width: 1.5;" width="126" x="113" y="358.2188"/><rect fill="#ECF0F1" height="5" style="stroke: #3498DB; stroke-width: 1.5;" width="10" x="108" y="363.2188"/><rect fill="#ECF0F1" height="5" style="stroke: #3498DB; stroke-width: 1.5;" width="10" x="108" y="441.1719"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86" x="133" y="382.752">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="123" y="402.4375">Component C</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="178" y="420.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="178" y="438.0957"/><!--entity database--><path d="M271.5,189.2188 C271.5,179.2188 356,179.2188 356,179.2188 C356,179.2188 440.5,179.2188 440.5,189.2188 L440.5,271.1719 C440.5,281.1719 356,281.1719 356,281.1719 C356,281.1719 271.5,281.1719 271.5,271.1719 L271.5,189.2188 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M271.5,189.2188 C271.5,199.2188 356,199.2188 356,199.2188 C356,199.2188 440.5,199.2188 440.5,189.2188 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="149" x="281.5" y="217.752">«database component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="24" x="344" y="237.4375">DB</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="358" y="255.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="358" y="273.0957"/><!--entity storage--><rect fill="#ECF0F1" height="92.9531" style="stroke: none; stroke-width: 1.5;" width="158" x="491" y="183.7188"/><path d="M476,183.7188 L491,183.7188 L491,276.6719 L649,276.6719 L649,183.7188 L664,183.7188 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="138" x="501" y="208.252">«storage component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="518" y="227.9375">Local storage</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="572" y="245.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="572" y="263.5957"/><!--entity pubSub--><path d="M282.5,363.2188 L429.5,363.2188 C434.5,363.2188 434.5,404.6953 434.5,404.6953 C434.5,404.6953 434.5,446.1719 429.5,446.1719 L282.5,446.1719 C277.5,446.1719 277.5,404.6953 277.5,404.6953 C277.5,404.6953 277.5,363.2188 282.5,363.2188 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M429.5,363.2188 C424.5,363.2188 424.5,404.6953 424.5,404.6953 C424.5,446.1719 429.5,446.1719 429.5,446.1719 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="282.5" y="382.752">«pubsub component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="308" y="402.4375">Events bus</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="353" y="420.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="353" y="438.0957"/><!--entity config--><polygon fill="#ECF0F1" points="470,358.2188,470,451.1719,618,451.1719,618,368.2188,608,358.2188,470,358.2188" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M608,358.2188 L608,368.2188 L618,368.2188 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="128" x="480" y="382.752">«config component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="491.5" y="402.4375">Configuration</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="546" y="420.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="546" y="438.0957"/><!--reverse link componentA to componentB--><path d="M106.58,282.2348 C100.015,305.1938 93.2488,332.7978 90,358.2188 C83.4081,409.7988 81.7856,423.8718 90,475.2188 C92.9445,493.6248 98.7417,513.2338 104.6666,530.1988 " fill="none" id="componentA&lt;-componentB" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="107.976,277.4078,101.6314,284.9408,106.5858,282.2106,109.316,287.165,107.976,277.4078" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="94" y="409.6758"/><!--link componentA to componentC--><path d="M137.203,277.4458 C144.36,300.7388 153.054,329.0348 160.396,352.9328 " fill="none" id="componentA-&gt;componentC" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#566775" points="161.942,357.9628,163.1225,348.1849,160.4736,353.1832,155.4752,350.5344,161.942,357.9628" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="157" y="324.6758"/><!--link componentC to componentB--><path d="M160.26,456.2048 C153.473,477.9748 145.552,503.3828 138.762,525.1608 " fill="none" id="componentC-componentB" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 1.0,3.0;"/><polygon fill="#566775" points="137.242,530.0358,143.7402,522.6349,138.7307,525.2625,136.1031,520.253,137.242,530.0358" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="161.797,451.2758,155.2988,458.6766,160.3083,456.049,162.9359,461.0585,161.797,451.2758" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="156" y="496.6758"/><!--link database to storage--><!--link database to pubSub--><!--link pubSub to config--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="316" y="679.752">Component View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="265" x="0" y="693.209">view.component.puml | Thu Feb 27 22:36:09 CET 2020</text><!--
-@startuml view.component
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="652px" preserveAspectRatio="none" style="width:773px;height:652px;" version="1.1" viewBox="0 0 773 652" width="773px" zoomAndPan="magnify"><defs/><g><a href="example.container.svg" target="_top" title="example.container.svg" xlink:actuate="onRequest" xlink:href="example.container.svg" xlink:show="new" xlink:title="example.container.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="125" x="0" y="9.2822">Back to Container View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="129" x="315.5" y="28.3486">View Example</text><!--MD5=[ce5ccd5b359d4259c2ab78015c688698]
+cluster container--><rect fill="#ECF0F1" height="573.5" style="stroke: #65BDED; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="760" x="7" y="39.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="158" x="308" y="54.5889">«container boundary»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="154" x="310" y="72.7422">Simple container</text><!--MD5=[3c22739714270d73bb1ebb97dee24d10]
+cluster package--><polygon fill="#ECF0F1" points="279,100.5938,338,100.5938,345,125.2188,743,125.2188,743,435.0938,279,435.0938,279,100.5938" style="stroke: #65BDED; stroke-width: 1.5;"/><line style="stroke: #65BDED; stroke-width: 1.5;" x1="279" x2="345" y1="125.2188" y2="125.2188"/><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="283" y="117.4453">Other</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="151" x="439.5" y="140.2139">«container package»</text><!--MD5=[0b98efc39f507a75ec59d10b029666e0]
+entity componentA--><rect fill="#ECF0F1" height="98.0187" style="stroke: #3498DB; stroke-width: 1.5;" width="164" x="59" y="153.0938"/><rect fill="#ECF0F1" height="10" style="stroke: #3498DB; stroke-width: 1.5;" width="15" x="203" y="158.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="201" y="160.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="201" y="164.0938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="86.5" y="186.0889">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="74" y="204.2422">Component A</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="93" y="221.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="90" x="93" y="221.0107">Main Module</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="96" y="237.8107"/><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="96" y="237.2764">Angular.io</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="180" y="237.8107"/><!--MD5=[a6d5fe67655e4707802be9c6fdfb0065]
+entity componentB--><rect fill="#ECF0F1" height="97.5156" style="stroke: #3498DB; stroke-width: 1.5;" width="164" x="42" y="499.0938"/><rect fill="#ECF0F1" height="10" style="stroke: #3498DB; stroke-width: 1.5;" width="15" x="186" y="504.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="184" y="506.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="184" y="510.0938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="69.5" y="532.0889">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="57" y="550.2422">Component B</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="119" y="567.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="123" y="567.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="119" y="583.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="123" y="583.3076"/><!--MD5=[7ababdcd263ee09e9a4f093377d957c1]
+entity componentC--><rect fill="#ECF0F1" height="97.5156" style="stroke: #3498DB; stroke-width: 1.5;" width="164" x="99" y="326.0938"/><rect fill="#ECF0F1" height="10" style="stroke: #3498DB; stroke-width: 1.5;" width="15" x="243" y="331.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="241" y="333.0938"/><rect fill="#ECF0F1" height="2" style="stroke: #3498DB; stroke-width: 1.5;" width="4" x="241" y="337.0938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="99" x="126.5" y="359.0889">«component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="114" y="377.2422">Component C</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="176" y="394.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="180" y="394.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="176" y="410.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="180" y="410.3076"/><!--MD5=[f50ff5e4cd64f259303fc83dba1819fc]
+entity database--><path d="M295.5,163.5938 C295.5,153.5938 390,153.5938 390,153.5938 C390,153.5938 484.5,153.5938 484.5,163.5938 L484.5,240.1094 C484.5,250.1094 390,250.1094 390,250.1094 C390,250.1094 295.5,250.1094 295.5,240.1094 L295.5,163.5938 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M295.5,163.5938 C295.5,173.5938 390,173.5938 390,173.5938 C390,173.5938 484.5,173.5938 484.5,163.5938 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="169" x="305.5" y="190.5889">«database component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="377.5" y="208.7422">DB</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="390" y="225.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="394" y="225.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="390" y="241.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="394" y="241.8076"/><!--MD5=[a5a6ae0ba01c8a4589ab26bd33e87aad]
+entity storage--><rect fill="#ECF0F1" height="87.5156" style="stroke: none; stroke-width: 1.5;" width="177" x="534.5" y="158.0938"/><path d="M519.5,158.0938 L534.5,158.0938 L534.5,245.6094 L711.5,245.6094 L711.5,158.0938 L726.5,158.0938 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="157" x="544.5" y="181.0889">«storage component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="560" y="199.2422">Local storage</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="623" y="216.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="627" y="216.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="623" y="232.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="627" y="232.3076"/><!--MD5=[fe04755f53932f6d616cbef62bbfd42c]
+entity pubSub--><path d="M307.5,336.0938 L472.5,336.0938 C477.5,336.0938 477.5,374.8516 477.5,374.8516 C477.5,374.8516 477.5,413.6094 472.5,413.6094 L307.5,413.6094 C302.5,413.6094 302.5,374.8516 302.5,374.8516 C302.5,374.8516 302.5,336.0938 307.5,336.0938 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M472.5,336.0938 C467.5,336.0938 467.5,374.8516 467.5,374.8516 C467.5,413.6094 472.5,413.6094 472.5,413.6094 " fill="none" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="307.5" y="354.0889">«pubsub component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="99" x="335.5" y="372.2422">Events bus</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="385" y="389.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="389" y="389.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="385" y="405.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="389" y="405.3076"/><!--MD5=[caf660ac2a54b55a5c31b5515889e628]
+entity config--><polygon fill="#ECF0F1" points="512.5,331.0938,512.5,418.6094,679.5,418.6094,679.5,341.0938,669.5,331.0938,512.5,331.0938" style="stroke: #3498DB; stroke-width: 1.5;"/><path d="M669.5,331.0938 L669.5,341.0938 L679.5,341.0938 " fill="#ECF0F1" style="stroke: #3498DB; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="147" x="522.5" y="354.0889">«config component»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="533" y="372.2422">Configuration</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="596" y="389.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="600" y="389.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="596" y="405.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="600" y="405.3076"/><!--MD5=[0d142ba8db8219e3f3ef290cf2e933c6]
+reverse link componentA to componentB--><path d="M105.359,255.7788 C93.21,276.7218 81.1493,301.6278 75,326.0938 C62.3244,376.5248 63.6443,392.3488 75,443.0938 C79.2715,462.1817 87.4534,481.8958 95.926,498.9598 " fill="none" id="componentA-backto-componentB" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="107.95,251.3708,99.9401,257.1015,105.4156,255.6809,106.8363,261.1564,107.95,251.3708" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="80" y="379.7324"/><!--MD5=[949fb6074c1ea1d983c39ed227107cad]
+link componentA to componentC--><path d="M152.249,251.1818 C157.34,272.9478 163.374,298.7428 168.596,321.0678 " fill="none" id="componentA-to-componentC" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#566775" points="169.767,326.0708,171.6125,316.3963,168.6284,321.2021,163.8226,318.2181,169.767,326.0708" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="168" y="293.2324"/><!--MD5=[f58b4328423a38fe9aad98c565a4983f]
+link componentC to componentB--><path d="M163.303,429.1858 C156.411,449.8608 148.53,473.5028 141.644,494.1627 " fill="none" id="componentC-componentB" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 1.0,3.0;"/><polygon fill="#566775" points="140.008,499.0708,146.6494,491.7981,141.5896,494.3275,139.0602,489.2676,140.008,499.0708" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="164.971,424.1817,158.3302,431.455,163.3899,428.9252,165.9197,433.9848,164.971,424.1817" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="160" y="466.2324"/><!--MD5=[2075ae475e383ad67de2f89b01e97fb5]
+link database to storage--><!--MD5=[ea208994d3e5b15502b5d400b6214531]
+link database to pubSub--><!--MD5=[02f5dc1738747ba7de3706a831198261]
+link pubSub to config--><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="318" y="631.0889">Component View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="171" x="0" y="643.6729">| Thu Oct 29 08:14:39 UTC 2020</text><!--MD5=[c75567e8bf1b034212a32bad0e1186e2]
+@startuml
+' !include style.puml
+' !include common.puml
+!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/style.puml
+!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/common.puml
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Document
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+!definelong Header_Component(text, link)
+left header [[link Back to Container View]]
+title text
+!enddefinelong
+
+!definelong Footer_Component()
+caption Component View
+Footer()
+!enddefinelong
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Component
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+!define Container_Boundary(alias, label) rectangle "==label" <<container boundary>> as alias
+skinparam rectangle<<container boundary>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_CONTAINER_BG
+    BorderColor COLOR_BOUNDARY_CONTAINER_BD
+    BorderStyle dashed
+    BorderThickness 1
+    Shadowing false
+}
+
+!define Container_Package(alias, label) package "==label" <<container package>> as alias
+skinparam package<<container package>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_CONTAINER_BG
+    BorderColor COLOR_BOUNDARY_CONTAINER_BD
+    Shadowing false
+}
+
+!define Component(alias, label, description=" ", technology="", link="") component "==label\n //description//\n ""technology"" " <<component>> as alias link
+skinparam component<<component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+!define Component_PubSub(alias, label, description=" ", technology="", link="") queue "==label\n //description//\n ""technology"" " <<pubsub component>> as alias link
+skinparam queue<<pubsub component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+!define Component_Database(alias, label, description=" ", technology="", link="") database "==label\n //description//\n ""technology"" " <<database component>> as alias link
+skinparam database<<database component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+!define Component_Storage(alias, label, description=" ", technology="", link="") stack "==label\n //description//\n ""technology"" " <<storage component>> as alias link
+skinparam stack<<storage component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+!define Component_Config(alias, label, description=" ", technology="", link="") file "==label\n //description//\n ""technology"" " <<config component>> as alias link
+skinparam file<<config component>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_COMPONENT_BG
+    BorderColor COLOR_COMPONENT_BD
+    Shadowing false
+}
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+Header_Component("View Example", "example.container.svg")
+LAYOUT_TOP_DOWN
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Elements
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Container_Boundary(container, "Simple container") {
+    Component(componentA, "Component A", "Main Module", "Angular.io")
+    Component(componentB, "Component B")
+    Component(componentC, "Component C")
+
+    Container_Package(package, "Other") {
+        Component_Database(database, "DB")
+        Component_Storage(storage, "Local storage")
+        Component_PubSub(pubSub, "Events bus")
+        Component_Config(config, "Configuration")
+    }
+}
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Relations
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Relation(componentA, componentB, "<-RIGHT-")
+Relation(componentA, componentC, ".DOWN.>")
+Relation(componentB, componentC, "<~UP~>")
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Footer_Component()
+@enduml
+
+@startuml
 
 
 
@@ -136,196 +276,6 @@ skinparam file<<config component>> {
 
 
 
-
-
-
-skinparam defaultTextAlignment center
-skinparam wrapWidth 200
-skinparam maxMessageSize 150
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-skinparam defaultTextAlignment center
-skinparam wrapWidth 200
-skinparam maxMessageSize 150
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-skinparam Note {
-    FontColor #566775
-    BackgroundColor white
-    BorderColor #b6c1c5
-}
-
-
-skinparam actor<<person>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #566775
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam Arrow {
-    FontColor #2c3e50
-    Color #566775
-    FontSize 12
-}
-
-
-
-
-
-
-
-skinparam rectangle<<system boundary>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #ecf0f1
-    BorderColor #566775
-    BorderStyle dashed
-    BorderThickness 1
-    Shadowing false
-}
-
-skinparam package<<system package>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #ecf0f1
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #65bded
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<script container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #f8df46
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<microservice container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #f2b24e
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<service container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #f87b57
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam queue<<pubsub container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #98e1ff
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam database<<database container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #98e1ff
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam stack<<storage container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #98e1ff
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam file<<config container>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #98e1ff
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<webserver application>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #63d0d3
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<web application>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #5ee594
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<desktop application>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #5ee594
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam rectangle<<mobile application>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #5ee594
-    BorderColor #566775
-    Shadowing false
-}
-
-
-
 left header [[example.container.svg Back to Container View]]
 title View Example
 top to bottom direction
@@ -351,18 +301,14 @@ componentB <~UP~> componentC : ""
 
 
 caption Component View
-left footer view.component.puml | Thu Feb 27 22:36:09 CET 2020
-
+left footer  | Thu Oct 29 08:14:39 UTC 2020
 @enduml
 
-PlantUML version 1.2019.09(Mon Aug 26 18:19:51 CEST 2019)
+PlantUML version 1.2020.20beta7(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) Client VM
-Java Version: 1.8.0_40-b26
-Operating System: Windows 8.1
-OS Version: 6.3
-Default Encoding: Cp1250
-Language: pl
-Country: PL
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
 --></g></svg>

@@ -1,7 +1,239 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="873px" preserveAspectRatio="none" style="width:992px;height:873px;" version="1.1" viewBox="0 0 992 873" width="992px" zoomAndPan="magnify"><defs/><g><a href="example.context.svg" target="_top" xlink:actuate="onRequest" xlink:show="new" xlink:title="example.context.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="100" x="0" y="10.3809">Back to Context View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="111" x="452" y="31.2637">View Example</text><!--cluster system--><rect fill="#ECF0F1" height="746.5" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="959" x="22" y="59.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="124" x="439.5" y="76.252">«system boundary»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="433.5" y="95.9375">Awsome software</text><!--cluster package--><polygon fill="#ECF0F1" points="413,442.7188,485,442.7188,492,468.8438,791,468.8438,791,782.2188,413,782.2188,413,442.7188" style="stroke: #566775; stroke-width: 1.5;"/><line style="stroke: #566775; stroke-width: 1.5;" x1="413" x2="492" y1="468.8438" y2="468.8438"/><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="66" x="417" y="461.3281">Services</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="119" x="546.5" y="485.377">«system package»</text><!--entity container--><a href="view.component.svg" target="_top" xlink:actuate="onRequest" xlink:show="new" xlink:title="view.component.svg" xlink:type="simple"><rect fill="#65BDED" height="93.623" style="stroke: #566775; stroke-width: 1.5;" width="148" x="485" y="285.7188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="75" x="521.5" y="310.252">«container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="495" y="329.9375">Simple container</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41" x="538.5" y="347.9863">Server</text><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="547" y="365.1377">API</text></a><!--entity database--><path d="M807,504.2188 C807,494.2188 886,494.2188 886,494.2188 C886,494.2188 965,494.2188 965,504.2188 L965,586.1719 C965,596.1719 886,596.1719 886,596.1719 C886,596.1719 807,596.1719 807,586.1719 L807,504.2188 " fill="#98E1FF" style="stroke: #566775; stroke-width: 1.5;"/><path d="M807,504.2188 C807,514.2188 886,514.2188 886,514.2188 C886,514.2188 965,514.2188 965,504.2188 " fill="none" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="138" x="817" y="532.752">«database container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="831" y="552.4375">Main database</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="888" y="570.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="888" y="588.0957"/><!--entity pubSub--><path d="M43,503.7188 L179,503.7188 C184,503.7188 184,545.1953 184,545.1953 C184,545.1953 184,586.6719 179,586.6719 L43,586.6719 C38,586.6719 38,545.1953 38,545.1953 C38,545.1953 38,503.7188 43,503.7188 " fill="#98E1FF" style="stroke: #566775; stroke-width: 1.5;"/><path d="M179,503.7188 C174,503.7188 174,545.1953 174,545.1953 C174,586.6719 179,586.6719 179,586.6719 " fill="none" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="126" x="43" y="523.252">«pubsub container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="45" y="542.9375">Fastest PubSub</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="108" y="560.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="108" y="578.5957"/><!--entity storage--><rect fill="#98E1FF" height="92.9531" style="stroke: none; stroke-width: 1.5;" width="147" x="234.5" y="498.7188"/><path d="M219.5,498.7188 L234.5,498.7188 L234.5,591.6719 L381.5,591.6719 L381.5,498.7188 L396.5,498.7188 " fill="none" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="127" x="244.5" y="523.252">«storage container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="264" y="542.9375">File System</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="310" y="560.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="310" y="578.5957"/><!--entity config--><polygon fill="#98E1FF" points="296.5,286.2188,296.5,379.1719,445.5,379.1719,445.5,296.2188,435.5,286.2188,296.5,286.2188" style="stroke: #566775; stroke-width: 1.5;"/><path d="M435.5,286.2188 L435.5,296.2188 L445.5,296.2188 " fill="#98E1FF" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="117" x="312.5" y="310.752">«config container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="306.5" y="330.4375">Init configuration</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="373" y="348.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="373" y="366.0957"/><!--entity webServer--><rect fill="#63D0D3" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="172" x="733" y="286.2188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="152" x="743" y="310.752">«webserver application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="36" x="801" y="330.4375">CMS</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="821" y="348.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="821" y="366.0957"/><!--entity web--><rect fill="#5EE594" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="142" x="680" y="115.7188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="694.5" y="140.252">«web application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="690" y="159.9375">Web application</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="753" y="177.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="753" y="195.5957"/><!--entity desktop--><rect fill="#5EE594" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="172" x="473" y="115.7188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="139" x="489.5" y="140.252">«desktop application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="152" x="483" y="159.9375">Desktop application</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="561" y="177.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="561" y="195.5957"/><!--entity mobile--><rect fill="#5EE594" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="158" x="280" y="115.7188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="129" x="294.5" y="140.252">«mobile application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="290" y="159.9375">Mobile application</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="361" y="177.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="361" y="195.5957"/><!--entity script--><rect fill="#F8DF46" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="133" x="429.5" y="673.2188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="439.5" y="697.752">«script container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="452.5" y="717.4375">Bash script</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="460" y="735.4863">Small script</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="498" y="753.0957"/><!--entity microService--><rect fill="#F2B24E" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="177" x="597.5" y="673.2188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="157" x="607.5" y="697.752">«microservice container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="635.5" y="717.4375">Small service</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="688" y="735.4863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="688" y="753.0957"/><!--entity service--><rect fill="#F87B57" height="92.9531" style="stroke: #566775; stroke-width: 1.5;" width="143" x="487.5" y="498.7188"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="123" x="497.5" y="523.252">«service container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="507.5" y="542.9375">Large service</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="561" y="560.9863"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="561" y="578.5957"/><!--link container to database--><path d="M633.192,356.4618 C681.067,373.3528 743.111,399.5528 791,434.7188 C811.745,449.9528 831.076,470.4898 846.813,489.6618 " fill="none" id="container-&gt;database" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="850.32,493.9848,847.7562,484.4754,847.1699,490.1018,841.5436,489.5155,850.32,493.9848" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="783" y="423.1758"/><!--link container to pubSub--><path d="M484.781,371.4028 C477.514,374.4478 470.175,377.2828 463,379.7188 C350.744,417.8268 303.524,373.5108 202,434.7188 C174.163,451.5018 150.913,479.9348 134.883,503.6218 " fill="none" id="container-pubSub" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="257" y="423.1758"/><!--link container to storage--><path d="M486.332,379.7638 C462.227,396.1298 435.754,415.3268 413,434.7188 C391.576,452.9768 369.739,475.0748 351.569,494.6248 " fill="none" id="container-&gt;storage" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="347.985,498.4988,357.0333,494.6093,351.3807,494.8287,351.1613,489.1761,347.985,498.4988" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="448" y="423.1758"/><!--reverse link config to container--><path d="M450.744,332.7188 C462.048,332.7188 473.633,332.7188 484.825,332.7188 " fill="none" id="config&lt;-container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="445.573,332.7188,454.573,336.7188,450.573,332.7188,454.573,328.7188,445.573,332.7188" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="466.75" y="326.1758"/><!--link container to webServer--><path d="M638.301,332.7188 C666.554,332.7188 698.595,332.7188 727.769,332.7188 " fill="none" id="container-webServer" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="732.803,332.7188,723.803,328.7188,727.803,332.7188,723.803,336.7188,732.803,332.7188" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="633.158,332.7188,642.158,336.7188,638.158,332.7188,642.158,328.7188,633.158,332.7188" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="684.5" y="326.1758"/><!--link webServer to database--><path d="M833.538,379.3938 C843.809,411.6638 857.626,455.0748 868.502,489.2448 " fill="none" id="webServer-&gt;database" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="870.085,494.2168,871.1656,484.4273,868.5679,489.4525,863.5427,486.8548,870.085,494.2168" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="852" y="423.1758"/><!--link web to container--><path d="M699.042,208.8178 C673.214,231.4838 641.956,258.9158 615.53,282.1078 " fill="none" id="web-&gt;container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="611.667,285.4978,621.0693,282.5658,615.4244,282.199,615.7913,276.554,611.667,285.4978" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="664" y="252.1758"/><!--link desktop to container--><path d="M559,208.8178 C559,230.9267 559,257.5698 559,280.3898 " fill="none" id="desktop-&gt;container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="559,285.4978,563,276.4978,559,280.4978,555,276.4978,559,285.4978" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="563" y="252.1758"/><!--link mobile to container--><path d="M413.123,208.8178 C440.027,231.4838 472.587,258.9158 500.115,282.1078 " fill="none" id="mobile-&gt;container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="504.138,285.4978,499.8317,276.6402,500.3139,282.2765,494.6777,282.7588,504.138,285.4978" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="469" y="252.1758"/><!--link service to microService--><path d="M592.7,591.9928 C610.136,615.6758 631.449,644.6238 649.301,668.8718 " fill="none" id="service-&gt;microService" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="652.363,673.0308,650.2492,663.4114,649.399,669.004,643.8064,668.1538,652.363,673.0308" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="634" y="639.6758"/><!--link service to script--><path d="M542.283,591.9928 C533.705,615.4798 523.235,644.1458 514.425,668.2688 " fill="none" id="service-&gt;script" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="512.686,673.0308,519.5299,665.9483,514.4007,668.334,512.015,663.2048,512.686,673.0308" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="533" y="639.6758"/><!--link container to service--><path d="M559,384.9498 C559,417.8668 559,460.4538 559,493.3078 " fill="none" id="container-service" style="stroke: #566775; stroke-width: 2.0;"/><polygon fill="#566775" points="559,498.4938,563,489.4938,559,493.4938,555,489.4938,559,498.4938" style="stroke: #566775; stroke-width: 2.0;"/><polygon fill="#566775" points="559,379.9138,555,388.9138,559,384.9138,563,388.9138,559,379.9138" style="stroke: #566775; stroke-width: 2.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="563" y="423.1758"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="460" y="846.752">Container View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="256" x="0" y="860.209">view.container.puml | Thu Feb 27 22:36:05 CET 2020</text><!--
-@startuml view.container
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="792px" preserveAspectRatio="none" style="width:1065px;height:792px;" version="1.1" viewBox="0 0 1065 792" width="1065px" zoomAndPan="magnify"><defs/><g><a href="example.context.svg" target="_top" title="example.context.svg" xlink:actuate="onRequest" xlink:href="example.context.svg" xlink:show="new" xlink:title="example.context.svg" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="114" x="0" y="9.2822">Back to Context View</text></a><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="129" x="461.5" y="28.3486">View Example</text><!--MD5=[8ae77ada6169822435c3d3bcb01b6727]
+cluster system--><rect fill="#ECF0F1" height="713.5" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="1052" x="7" y="39.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="140" x="463" y="54.5889">«system boundary»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="167" x="449.5" y="72.7422">Awsome software</text><!--MD5=[3c22739714270d73bb1ebb97dee24d10]
+cluster package--><polygon fill="#ECF0F1" points="432,404.5938,514,404.5938,521,429.2188,851,429.2188,851,729.0938,432,729.0938,432,404.5938" style="stroke: #566775; stroke-width: 1.5;"/><line style="stroke: #566775; stroke-width: 1.5;" x1="432" x2="521" y1="429.2188" y2="429.2188"/><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="436" y="421.4453">Services</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="133" x="579" y="444.2139">«system package»</text><!--MD5=[c1e3f05984ba1120c8c0eb08c3b56370]
+entity container--><a href="view.component.svg" target="_top" title="view.component.svg" xlink:actuate="onRequest" xlink:href="view.component.svg" xlink:show="new" xlink:title="view.component.svg" xlink:type="simple"><rect fill="#65BDED" height="88.0187" style="stroke: #566775; stroke-width: 1.5;" width="174" x="506" y="255.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86" x="550" y="278.5889">«container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="154" x="516" y="296.7422">Simple container</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="571.5" y="313.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="571.5" y="313.5107">Server</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="581" y="330.3107"/><text fill="#2C3E50" font-family="monospace" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="581" y="329.7764">API</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="609" y="330.3107"/></a><!--MD5=[f50ff5e4cd64f259303fc83dba1819fc]
+entity database--><path d="M867,463.0938 C867,453.0938 955,453.0938 955,453.0938 C955,453.0938 1043,453.0938 1043,463.0938 L1043,539.6094 C1043,549.6094 955,549.6094 955,549.6094 C955,549.6094 867,549.6094 867,539.6094 L867,463.0938 " fill="#98E1FF" style="stroke: #566775; stroke-width: 1.5;"/><path d="M867,463.0938 C867,473.0938 955,473.0938 955,473.0938 C955,473.0938 1043,473.0938 1043,463.0938 " fill="none" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="156" x="877" y="490.0889">«database container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="888.5" y="508.2422">Main database</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="955" y="525.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="959" y="525.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="955" y="541.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="959" y="541.3076"/><!--MD5=[fe04755f53932f6d616cbef62bbfd42c]
+entity pubSub--><path d="M28.5,462.5938 L181.5,462.5938 C186.5,462.5938 186.5,501.3516 186.5,501.3516 C186.5,501.3516 186.5,540.1094 181.5,540.1094 L28.5,540.1094 C23.5,540.1094 23.5,501.3516 23.5,501.3516 C23.5,501.3516 23.5,462.5938 28.5,462.5938 " fill="#98E1FF" style="stroke: #566775; stroke-width: 1.5;"/><path d="M181.5,462.5938 C176.5,462.5938 176.5,501.3516 176.5,501.3516 C176.5,540.1094 181.5,540.1094 181.5,540.1094 " fill="none" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="142" x="29" y="480.5889">«pubsub container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="28.5" y="498.7422">Fastest PubSub</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="100" y="515.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="104" y="515.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="100" y="531.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="104" y="531.8076"/><!--MD5=[a5a6ae0ba01c8a4589ab26bd33e87aad]
+entity storage--><rect fill="#98E1FF" height="87.5156" style="stroke: none; stroke-width: 1.5;" width="164" x="237" y="457.5938"/><path d="M222,457.5938 L237,457.5938 L237,545.1094 L401,545.1094 L401,457.5938 L416,457.5938 " fill="none" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144" x="247" y="480.5889">«storage container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="266.5" y="498.7422">File System</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="319" y="515.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="323" y="515.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="319" y="531.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="323" y="531.8076"/><!--MD5=[caf660ac2a54b55a5c31b5515889e628]
+entity config--><polygon fill="#98E1FF" points="285,255.5938,285,343.1094,465,343.1094,465,265.5938,455,255.5938,285,255.5938" style="stroke: #566775; stroke-width: 1.5;"/><path d="M455,255.5938 L455,265.5938 L465,265.5938 " fill="#98E1FF" style="stroke: #566775; stroke-width: 1.5;"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="134" x="308" y="278.5889">«config container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="295" y="296.7422">Init configuration</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="375" y="313.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="379" y="313.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="375" y="329.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="379" y="329.8076"/><!--MD5=[e530b2378a69f5a648e2b8a424358e49]
+entity webServer--><rect fill="#63D0D3" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="195" x="783.5" y="255.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="175" x="793.5" y="278.5889">«webserver application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="38" x="862" y="296.7422">CMS</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="881" y="313.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="885" y="313.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="881" y="329.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="885" y="329.8076"/><!--MD5=[08af8945a84acfe1eabc0963aa87c412]
+entity web--><rect fill="#5EE594" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="167" x="729.5" y="92.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="130" x="748" y="115.5889">«web application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="739.5" y="133.7422">Web application</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="813" y="150.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="817" y="150.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="813" y="166.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="817" y="166.8076"/><!--MD5=[dfa90a4a1c6e5b65768b932eff7ea778]
+entity desktop--><rect fill="#5EE594" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="203" x="491.5" y="92.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="157" x="514.5" y="115.5889">«desktop application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="183" x="501.5" y="133.7422">Desktop application</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="593" y="150.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="597" y="150.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="593" y="166.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="597" y="166.8076"/><!--MD5=[870e13a82a9bc0252b17e3ad6e742bb1]
+entity mobile--><rect fill="#5EE594" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="186" x="270" y="92.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="150" x="288" y="115.5889">«mobile application»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="280" y="133.7422">Mobile application</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="363" y="150.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="367" y="150.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="363" y="166.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="367" y="166.8076"/><!--MD5=[ce4c7fec84eccde686f151fd39cc7387]
+entity script--><rect fill="#F8DF46" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="149" x="448.5" y="625.0938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="129" x="458.5" y="648.0889">«script container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="471.5" y="666.2422">Bash script</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="483.5" y="683.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="483.5" y="683.0107">Small script</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="523" y="699.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="527" y="699.3076"/><!--MD5=[cf040b3e613380340269178645132b67]
+entity microService--><rect fill="#F2B24E" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="202" x="633" y="625.0938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="182" x="643" y="648.0889">«microservice container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="674" y="666.2422">Small service</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="734" y="683.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="738" y="683.0107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="734" y="699.3076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="738" y="699.3076"/><!--MD5=[38bfa9dc6018363cafe15f923a4b8db9]
+entity service--><rect fill="#F87B57" height="87.5156" style="stroke: #566775; stroke-width: 1.5;" width="161" x="512.5" y="457.5938"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="141" x="522.5" y="480.5889">«service container»</text><text fill="#2C3E50" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="122" x="532" y="498.7422">Large service</text><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="593" y="515.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="0" x="597" y="515.5107"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="593" y="531.8076"/><text fill="#2C3E50" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="597" y="531.8076"/><!--MD5=[73ad324976f9f04e35a943781e0243d3]
+link container to database--><path d="M680.084,322.8008 C732.247,338.5138 798.419,362.8308 851,396.5938 C873.359,410.9508 894.725,430.8208 912.211,449.3488 " fill="none" id="container-to-database" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="915.656,453.0348,912.4326,443.7283,912.2418,449.3819,906.5881,449.1911,915.656,453.0348" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="843" y="385.7324"/><!--MD5=[b65c7c9a417384f401046e85c4b0092a]
+link container to pubSub--><path d="M505.95,336.0148 C497.916,338.7678 489.848,341.3458 482,343.5938 C361.082,378.2318 314.431,336.3788 204,396.5938 C175.001,412.4058 149.5,439.7108 131.644,462.3748 " fill="none" id="container-pubSub" style="stroke: #566775; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="258" y="385.7324"/><!--MD5=[a43739c633e73b8fe9e7c549fe2e650a]
+link container to storage--><path d="M513.522,343.6108 C486.849,359.1788 457.435,377.6248 432,396.5938 C408.958,413.7788 385.282,434.9348 365.593,453.6688 " fill="none" id="container-to-storage" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="361.709,457.3818,370.9784,454.0532,365.3229,453.9264,365.4498,448.271,361.709,457.3818" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="467" y="385.7324"/><!--MD5=[1c524a98c8290141452bc3222297d15c]
+reverse link config to container--><path d="M470.311,299.5938 C482.172,299.5938 494.253,299.5938 505.98,299.5938 " fill="none" id="config-backto-container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="465.243,299.5938,474.243,303.5938,470.243,299.5938,474.243,295.5938,465.243,299.5938" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="487.5" y="293.7324"/><!--MD5=[aeabb8d35cec3d98b5af5215f89d7b1f]
+link container to webServer--><path d="M685.568,299.5938 C715.068,299.5938 747.882,299.5938 778.069,299.5938 " fill="none" id="container-webServer" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="783.281,299.5938,774.281,295.5938,778.281,299.5938,774.281,303.5938,783.281,299.5938" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="680.191,299.5938,689.191,303.5938,685.191,299.5938,689.191,295.5938,680.191,299.5938" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="733.75" y="293.7324"/><!--MD5=[c680afc8b39bf63d4c2b832e3ed23b2c]
+link webServer to database--><path d="M897.057,343.9908 C908.401,374.6508 923.662,415.8958 935.674,448.3618 " fill="none" id="webServer-to-database" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="937.422,453.0858,938.0486,443.2568,935.6861,448.3967,930.5462,446.0342,937.422,453.0858" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="918" y="385.7324"/><!--MD5=[bde2a9a60d784a4cb4e778870dc59b1a]
+link web to container--><path d="M754.044,180.7387 C723.835,202.8457 687.027,229.7827 656.229,252.3217 " fill="none" id="web-to-container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="652.119,255.3298,661.744,253.2418,656.1537,252.3766,657.0189,246.7863,652.119,255.3298" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="714" y="222.7324"/><!--MD5=[bae05626bb0cf7570ff79da99b4d95e5]
+link desktop to container--><path d="M593,180.7387 C593,202.1247 593,228.0287 593,250.0997 " fill="none" id="desktop-to-container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="593,255.3298,597,246.3298,593,250.3298,589,246.3298,593,255.3298" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="598" y="222.7324"/><!--MD5=[1d7496de3d8b57a3d359faa139880a93]
+link mobile to container--><path d="M424.636,180.7387 C456.218,202.8457 494.699,229.7827 526.896,252.3217 " fill="none" id="mobile-to-container" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="531.194,255.3298,526.115,246.8915,527.0979,252.4623,521.5271,253.4453,531.194,255.3298" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="490" y="222.7324"/><!--MD5=[0b920a4318ae51fd04f4a136850a20dc]
+link service to microService--><path d="M629.678,545.6447 C649.347,568.7318 673.62,597.2217 693.801,620.9098 " fill="none" id="service-to-microService" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="697.261,624.9708,694.4684,615.5261,694.0181,621.165,688.3792,620.7147,697.261,624.9708" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="672" y="592.2324"/><!--MD5=[42fb82c10fc7918ac3172914fe4e15de]
+link service to script--><path d="M574.791,545.6447 C565.107,568.5408 553.175,596.7518 543.206,620.3218 " fill="none" id="service-to-script" style="stroke: #566775; stroke-width: 1.0;"/><polygon fill="#566775" points="541.239,624.9708,548.4296,618.2406,543.1872,620.3659,541.0619,615.1235,541.239,624.9708" style="stroke: #566775; stroke-width: 1.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="565" y="592.2324"/><!--MD5=[b79108feb2c6828ceda5c7510fab93c0]
+link container to service--><path d="M593,349.1958 C593,380.3938 593,420.7578 593,451.9618 " fill="none" id="container-service" style="stroke: #566775; stroke-width: 2.0;"/><polygon fill="#566775" points="593,457.2818,597,448.2818,593,452.2818,589,448.2818,593,457.2818" style="stroke: #566775; stroke-width: 2.0;"/><polygon fill="#566775" points="593,343.9908,589,352.9908,593,348.9908,597,352.9908,593,343.9908" style="stroke: #566775; stroke-width: 2.0;"/><text fill="#2C3E50" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="0" x="598" y="385.7324"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="471.5" y="771.0889">Container View</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="171" x="0" y="783.6729">| Wed Oct 28 07:26:15 UTC 2020</text><!--MD5=[a28e57500f44496ab21f33d33edb083d]
+@startuml
+' !include style.puml
+' !include common.puml
+!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/style.puml
+!include https://raw.githubusercontent.com/N0N4M3pl/plantuml-C4/master/src/common.puml
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Document
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+!definelong Header_Container(text, link)
+left header [[link Back to Context View]]
+title text
+!enddefinelong
+
+!definelong Footer_Container()
+caption Container View
+Footer()
+!enddefinelong
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Container
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+!define System_Boundary(alias, label) rectangle "==label" <<system boundary>> as alias
+skinparam rectangle<<system boundary>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_SYSTEM_BG
+    BorderColor COLOR_BOUNDARY_SYSTEM_BD
+    BorderStyle dashed
+    BorderThickness 1
+    Shadowing false
+}
+
+!define System_Package(alias, label) package "==label" <<system package>> as alias
+skinparam package<<system package>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BOUNDARY_SYSTEM_BG
+    BorderColor COLOR_BOUNDARY_SYSTEM_BD
+    Shadowing false
+}
+
+!define Container(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<container>> as alias link
+skinparam rectangle<<container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_CONTAINER_BG
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_Script(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<script container>> as alias link
+skinparam rectangle<<script container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_YELLOW_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_MicroService(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<microservice container>> as alias link
+skinparam rectangle<<microservice container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_ORANGE_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_Service(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<service container>> as alias link
+skinparam rectangle<<service container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_RED_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_PubSub(alias, label, description=" ", technology="", link="") queue "==label\n //description//\n ""technology"" " <<pubsub container>> as alias link
+skinparam queue<<pubsub container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_Database(alias, label, description=" ", technology="", link="") database "==label\n //description//\n ""technology"" " <<database container>> as alias link
+skinparam database<<database container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_Storage(alias, label, description=" ", technology="", link="") stack "==label\n //description//\n ""technology"" " <<storage container>> as alias link
+skinparam stack<<storage container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Container_Config(alias, label, description=" ", technology="", link="") file "==label\n //description//\n ""technology"" " <<config container>> as alias link
+skinparam file<<config container>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_BLUE_1
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Application_WebServer(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<webserver application>> as alias link
+skinparam rectangle<<webserver application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_TURQUOISE_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Application_Web(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<web application>> as alias link
+skinparam rectangle<<web application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_GREEN_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Application_Desktop(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<desktop application>> as alias link
+skinparam rectangle<<desktop application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_GREEN_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+!define Application_Mobile(alias, label, description=" ", technology="", link="") rectangle "==label\n //description//\n ""technology"" " <<mobile application>> as alias link
+skinparam rectangle<<mobile application>> {
+    StereotypeFontColor COLOR_FONT_DARK
+    FontColor COLOR_FONT_DARK
+    BackgroundColor COLOR_GREEN_2
+    BorderColor COLOR_CONTAINER_BD
+    Shadowing false
+}
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+Header_Container("View Example", "example.context.svg")
+LAYOUT_TOP_DOWN
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Elements
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+System_Boundary(system, "Awsome software") {
+    Container(container, "Simple container", "Server", "API", "[[view.component.svg]]")
+
+    Container_Database(database, "Main database")
+    Container_PubSub(pubSub, "Fastest PubSub")
+    Container_Storage(storage, "File System")
+    Container_Config(config, "Init configuration")
+
+    System_Package(package, "Services") {
+        Container_Script(script, "Bash script", "Small script")
+        Container_MicroService(microService, "Small service")
+        Container_Service(service, "Large service")
+    }
+
+    Application_WebServer(webServer, "CMS")
+    Application_Web(web, "Web application")
+    Application_Desktop(desktop, "Desktop application")
+    Application_Mobile(mobile, "Mobile application")
+}
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' Relations
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Relation(container, database, "-DOWN->")
+Relation(container, pubSub, ".DOWN.")
+Relation(container, storage, "-DOWN->")
+Relation(container, config, "-LEFT->")
+
+Relation(webServer, container, "<-LEFT->")
+Relation(webServer, database, "-DOWN->")
+Relation(web, container, "-DOWN->")
+Relation(desktop, container, "-DOWN->")
+Relation(mobile, container, "-DOWN->")
+
+Relation(service, microService, "-DOWN->")
+Relation(service, script, "-DOWN->")
+Relation(service, container, "<=UP=>")
+
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Footer_Container()
+@enduml
+
+@startuml
 
 
 
@@ -192,96 +424,6 @@ skinparam rectangle<<mobile application>> {
 
 
 
-
-
-
-skinparam defaultTextAlignment center
-skinparam wrapWidth 200
-skinparam maxMessageSize 150
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-skinparam defaultTextAlignment center
-skinparam wrapWidth 200
-skinparam maxMessageSize 150
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-skinparam Note {
-    FontColor #566775
-    BackgroundColor white
-    BorderColor #b6c1c5
-}
-
-
-skinparam actor<<person>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #566775
-    BorderColor #566775
-    Shadowing false
-}
-
-skinparam Arrow {
-    FontColor #2c3e50
-    Color #566775
-    FontSize 12
-}
-
-
-
-
-
-
-
-skinparam node<<system>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #ecf0f1
-    BorderColor #566775
-}
-
-skinparam node<<external system>> {
-    StereotypeFontColor #2c3e50
-    FontColor #2c3e50
-    BackgroundColor #ecf0f1
-    BorderColor #b6c1c5
-}
-
-
-
 left header [[example.context.svg Back to Context View]]
 title View Example
 top to bottom direction
@@ -325,18 +467,14 @@ service <=UP=> container : ""
 
 
 caption Container View
-left footer view.container.puml | Thu Feb 27 22:36:05 CET 2020
-
+left footer  | Wed Oct 28 07:26:15 UTC 2020
 @enduml
 
-PlantUML version 1.2019.09(Mon Aug 26 18:19:51 CEST 2019)
+PlantUML version 1.2020.20beta7(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) Client VM
-Java Version: 1.8.0_40-b26
-Operating System: Windows 8.1
-OS Version: 6.3
-Default Encoding: Cp1250
-Language: pl
-Country: PL
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
 --></g></svg>
