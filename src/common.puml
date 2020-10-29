@@ -40,7 +40,7 @@ skinparam Arrow {
     FontColor COLOR_FONT_DARK
     Color COLOR_RELATION
     FontSize 12
-    PathHoverColor COLOR_RED_1
+    Thickness 2
 }
 
 ' ----------------------------------------------------
